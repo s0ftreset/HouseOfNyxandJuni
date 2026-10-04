@@ -29,3 +29,10 @@ No install or build is required. Open `index.html` directly or serve this folder
 ## Content ownership
 
 Elyndor lore belongs to its creators. No license to reuse the lore or character material is granted by this repository.
+
+
+## Portrait hall, chat links, and secret room
+
+The homepage has a compact Faces of Elyndor link; `#characters` opens the dedicated portrait hall. Each character media record has a `chatUrl` pointing to the supplied DreamJourney creation. Chat Here appears both in the gallery and the lore reader and opens a new tab.
+
+The small footer seal opens `#secrets`; typing THORNS outside a text field is an alternate entrance. The Sealed Archive has an outer spoiler warning and individual expandable records, following the two-layer Foxglove pattern. Add spoiler records to `secrets.js` as `{id, title, body}`. The room starts empty for deliberate author selection. Secret records are excluded from normal archive search. This is a public Easter egg, not authentication; source and content remain publicly accessible. Do not store private data here.

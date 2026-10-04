@@ -6,7 +6,7 @@
   <meta name="description" content="Explore Elyndor: the Great Fae Courts, the mortal realm of Maynerim, and the dragons of Caer Avar. An original fantasy lore archive by Nyx and Juni.">
   <title>Elyndor | The Living Archive</title>
   <link rel="preload" as="image" href="castle-dusk.webp"><link rel="icon" href="crest.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="galleries.css">
-  <script src="lore.js" defer></script><script src="media.js" defer></script><script src="app.js" defer></script>
+  <script src="lore.js" defer></script><script src="media.js" defer></script><script src="secrets.js" defer></script><script src="app.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#archive">Skip to the archive</a>
@@ -29,10 +29,9 @@
       <a class="realm maynerim" href="#entry/maynerim"><span class="realm-number">III</span><span class="sigil" aria-hidden="true">✧</span><p class="eyebrow">MORTALS · TRADE · POSSIBILITY</p><h3>Maynerim</h3><p>Merchants, travelers, and mountain cities finding their own place between great powers.</p><span class="realm-link">Across the mortal realm <b>↗</b></span></a>
     </div>
   </section>
-  <section id="characters" class="section photo-section" aria-labelledby="characters-title">
-    <div class="section-heading"><div><p class="eyebrow">THE PORTRAIT HALL</p><h2 id="characters-title">Faces of Elyndor.</h2></div><p>The people behind the promises.<br>Select an image to see the full artwork.</p></div>
-    <div id="character-gallery" class="photo-grid"></div>
-    <a class="gallery-browse" href="#category/Characters">Browse all character lore <span aria-hidden="true">↗</span></a>
+  <section class="section faces-invitation" aria-labelledby="faces-invitation-title">
+    <div><p class="eyebrow">THE PORTRAIT HALL</p><h2 id="faces-invitation-title">Faces of Elyndor.</h2><p>Meet the people behind the promises.</p></div>
+    <a class="button" href="#characters">Enter the portrait hall <span aria-hidden="true">↗</span></a>
   </section>
   <section id="locations" class="section photo-section location-section" aria-labelledby="locations-title">
     <div class="section-heading"><div><p class="eyebrow">THE ILLUSTRATED ATLAS</p><h2 id="locations-title">Beyond the written page.</h2></div><p>Landscapes, cities, and distant horizons.<br>A window into the world.</p></div>
@@ -50,8 +49,27 @@
   <section id="aerie" class="aerie section"><div class="aerie-mark" aria-hidden="true">✦<span>ASH<br>& SKY</span></div><div><p class="eyebrow">CHAPTER III · ABOVE THE CROWNSPINES</p><h2>“Will you rise<br><em>with me?</em>”</h2><p>At the Aerie at Caer Avar, partnership begins with a choice.<br>Dragon chooses human. Human chooses dragon.<br>And between them, something new takes flight.</p><a class="button" href="#category/Aerie%20%26%20Dragons">Discover the Aerie <span aria-hidden="true">↗</span></a></div><p class="aerie-note">CONCORD<br><span>A partnership chosen twice.</span></p></section>
   <section class="archive-note section"><span aria-hidden="true">✧</span><div><p class="eyebrow">A WORLD STILL UNFOLDING</p><p>This archive gathers Elyndor’s established lore and the developing dragon records of Caer Avar. Provisional details remain identified in their entries. Every new page leaves room for another story.</p></div></section>
 </main>
-<footer><a class="brand" href="#home">ELYNDOR</a><p>An original world by Nyx & Juni.</p><a href="https://github.com/s0ftreset/HouseOfNyxandJuni">View on GitHub ↗</a></footer>
-<dialog id="reader" aria-labelledby="reader-title"><div class="reader-toolbar"><span>THE ELYNDOR ARCHIVE</span><button id="close-reader" aria-label="Close entry">Close <span aria-hidden="true">×</span></button></div><article><p id="reader-category" class="eyebrow"></p><h2 id="reader-title"></h2><div id="reader-photos" class="reader-photos" hidden></div><div id="reader-body"></div><div id="related"></div><p id="reader-source" class="source"></p><button id="copy-link" class="text-link">Copy entry link</button><span id="copy-status" role="status"></span></article></dialog>
+<main id="faces-view" hidden>
+  <a class="back-to-world" href="#home">← Return to Elyndor</a>
+  <section id="character-hall" class="section photo-section" aria-labelledby="characters-title">
+    <div class="section-heading"><div><p class="eyebrow">THE PORTRAIT HALL</p><h2 id="characters-title">Faces of Elyndor.</h2></div><p>The people behind the promises.<br>Select an image to see the full artwork.</p></div>
+    <div id="character-gallery" class="photo-grid"></div>
+    <a class="gallery-browse" href="#category/Characters">Browse all character lore <span aria-hidden="true">↗</span></a>
+  </section>
+</main>
+<main id="secrets-view" hidden>
+  <a class="back-to-world" href="#home">← Leave the hidden room</a>
+  <section class="section sealed-archive" aria-labelledby="secrets-title">
+    <p class="eyebrow">FOR THOSE WHO LOOK TOO CLOSELY</p><h1 id="secrets-title">The Sealed Archive</h1>
+    <p>Every court keeps a second history.</p>
+    <details id="spoiler-gate" class="spoiler-gate"><summary>Break the seal · Secrets & spoilers</summary>
+      <div class="spoiler-interior"><p class="spoiler-warning">Spoilers below. Proceed recklessly.</p>
+      <div id="secret-files"></div></div>
+    </details>
+  </section>
+</main>
+<footer><a class="brand" href="#home">ELYNDOR</a><p>An original world by Nyx & Juni.</p><a class="secret-sigil" href="#secrets" aria-label="Examine the hidden seal" title="Some doors are easy to overlook.">✥</a><a href="https://github.com/s0ftreset/HouseOfNyxandJuni">View on GitHub ↗</a></footer>
+<dialog id="reader" aria-labelledby="reader-title"><div class="reader-toolbar"><span>THE ELYNDOR ARCHIVE</span><button id="close-reader" aria-label="Close entry">Close <span aria-hidden="true">×</span></button></div><article><p id="reader-category" class="eyebrow"></p><h2 id="reader-title"></h2><div id="reader-photos" class="reader-photos" hidden></div><div id="reader-chat"></div><div id="reader-body"></div><div id="related"></div><p id="reader-source" class="source"></p><button id="copy-link" class="text-link">Copy entry link</button><span id="copy-status" role="status"></span></article></dialog>
 <dialog id="lightbox" aria-labelledby="lightbox-title">
   <div class="reader-toolbar"><h2 id="lightbox-title">Elyndor artwork</h2><button id="close-lightbox" aria-label="Close full-size artwork" autofocus>Close <span aria-hidden="true">×</span></button></div>
   <figure><img id="lightbox-image" alt=""><figcaption id="lightbox-caption"></figcaption></figure>

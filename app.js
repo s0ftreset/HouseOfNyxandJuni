@@ -18,6 +18,12 @@ function mediaImage(photo) {
   img.width = photo.width; img.height = photo.height; img.loading = 'lazy'; img.decoding = 'async';
   return img;
 }
+function chatLink(photo) {
+  const link = element('a', 'chat-link', 'Chat Here ↗');
+  link.href = photo.chatUrl; link.target = '_blank'; link.rel = 'noopener noreferrer';
+  link.setAttribute('aria-label', 'Chat with ' + photo.title + ' on DreamJourney AI (opens in a new tab)');
+  return link;
+}
 function photoButton(photo, group) {
   const button = element('button', 'photo-open'); button.type = 'button';
   button.setAttribute('aria-label', 'View full artwork: ' + photo.title);
@@ -34,6 +40,7 @@ function renderGalleries() {
       const title = element('h3'); const link = element('a', '', photo.title); link.href = '#entry/' + photo.entryId; title.append(link);
       const lore = element('a', 'photo-lore', 'Read the lore ↗'); lore.href = link.href;
       body.append(element('p', 'eyebrow', photo.subtitle), title, lore);
+      if (photo.chatUrl) body.append(chatLink(photo));
       card.append(photoButton(photo, photos), body); return card;
     }));
     if (!photos.length) $(id).append(element('p', 'gallery-empty', 'Artwork will appear here as the collection grows.'));
@@ -45,6 +52,31 @@ function renderEntryPhotos(entry) {
   $('reader-photos').replaceChildren(...photos.map(photo => {
     const figure = element('figure'); figure.append(photoButton(photo, photos), element('figcaption', '', photo.caption)); return figure;
   }));
+  $('reader-chat').replaceChildren();
+  const character = photos.find(photo => photo.chatUrl);
+  if (character) $('reader-chat').append(chatLink(character));
+}
+function renderSecrets() {
+  const files = window.ELYNDOR_SECRETS || [];
+  $('secret-files').replaceChildren(...files.map(file => {
+    const details = element('details', 'secret-file');
+    details.append(element('summary', '', file.title), element('p', '', file.body));
+    return details;
+  }));
+  if (!files.length) $('secret-files').append(element('p', 'sealed-empty', 'The shelves are waiting. No secret records have been placed here yet.'));
+}
+let activeView = 'home';
+function showView(hash) {
+  const view = ['#characters','#character-hall'].includes(hash) ? 'faces' : ['#secrets','#secrets-title'].includes(hash) ? 'secrets' : 'home';
+  $('home').hidden = view !== 'home'; $('faces-view').hidden = view !== 'faces'; $('secrets-view').hidden = view !== 'secrets';
+  if (view !== 'secrets') {
+    $('spoiler-gate').open = false;
+    document.querySelectorAll('.secret-file').forEach(file => { file.open = false; });
+  }
+  if (activeView !== view) window.scrollTo(0, 0);
+  activeView = view;
+  document.title = view === 'faces' ? 'Faces of Elyndor | The Portrait Hall' : view === 'secrets' ? 'The Sealed Archive | Elyndor' : 'Elyndor | The Living Archive';
+  document.querySelector('.skip').href = view === 'faces' ? '#character-hall' : view === 'secrets' ? '#secrets-title' : '#archive';
 }
 function openPhoto(id, group) {
   currentPhotoGroup = group; currentPhotoIndex = group.findIndex(photo => photo.id === id);
@@ -116,7 +148,7 @@ function route() {
     document.title = (entry ? entry.name : 'Entry not found') + ' | Elyndor';
   } else {
     closeReader();
-    document.title = 'Elyndor | The Living Archive';
+    showView(hash);
     if (hash.startsWith('#category/')) {
       let name; try { name = decodeURIComponent(hash.slice(10)); } catch { name = ''; }
       if (categories.includes(name)) { category = name; query = ''; $('search').value = ''; page = 1; render(); $('archive').scrollIntoView(); }
@@ -129,7 +161,7 @@ $('sort').addEventListener('change', event => { sort = event.target.value; page 
 $('reset').onclick = () => { category = 'All entries'; query = ''; page = 1; $('search').value = ''; render(); $('search').focus(); };
 $('close-reader').onclick = closeReader;
 $('reader').addEventListener('click', event => { if (event.target === $('reader')) { const rect = $('reader').getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) closeReader(); } });
-$('reader').addEventListener('close', () => { document.body.classList.remove('reading'); if (location.hash.startsWith('#entry/')) { history.replaceState(null, '', returnHash); document.title = 'Elyndor | The Living Archive'; } });
+$('reader').addEventListener('close', () => { document.body.classList.remove('reading'); if (location.hash.startsWith('#entry/')) { history.replaceState(null, '', returnHash); showView(returnHash); } });
 $('copy-link').onclick = async () => { try { await navigator.clipboard.writeText(location.href); $('copy-status').textContent = 'Link copied.'; } catch { $('copy-status').textContent = 'Copy the address from your browser to share this entry.'; } };
 window.addEventListener('hashchange', route);
 $('close-lightbox').onclick = () => $('lightbox').close();
@@ -141,12 +173,18 @@ $('lightbox').addEventListener('click', event => {
   const rect = $('lightbox').getBoundingClientRect();
   if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) $('lightbox').close();
 });
+let secretKeys = '';
 document.addEventListener('keydown', event => {
   if ($('lightbox').open) {
     if (event.key === 'ArrowLeft') { event.preventDefault(); movePhoto(-1); }
     if (event.key === 'ArrowRight') { event.preventDefault(); movePhoto(1); }
     return;
   }
-  if (event.key === '/' && !$('reader').open && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)) { event.preventDefault(); $('search').focus(); $('archive').scrollIntoView(); }
+  const typing = ['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName) || document.activeElement.isContentEditable;
+  if (!typing && !$('reader').open && !event.ctrlKey && !event.metaKey && !event.altKey && event.key.length === 1) {
+    secretKeys = (secretKeys + event.key.toLowerCase()).slice(-6);
+    if (secretKeys === 'thorns') { location.hash = '#secrets'; secretKeys = ''; }
+  }
+  if (event.key === '/' && !$('reader').open && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)) { event.preventDefault(); showView('#archive'); location.hash = '#archive'; $('search').focus(); $('archive').scrollIntoView(); }
 });
-renderGalleries(); render(); route();
+renderGalleries(); renderSecrets(); render(); route();
