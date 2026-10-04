@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111a19">
+  <meta name="description" content="Explore Elyndor: the Great Fae Courts, the mortal realm of Maynerim, and the dragons of Caer Avar. An original fantasy lore archive by Nyx and Juni.">
+  <title>Elyndor | The Living Archive</title>
+  <link rel="icon" href="crest.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+  <script src="lore.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#archive">Skip to the archive</a>
+<header class="header">
+  <a class="brand" href="#home" aria-label="Elyndor home"><img src="crest.svg" alt="" width="38" height="48"><span>ELYNDOR<small>HOUSE OF NYX & JUNI</small></span></a>
+  <nav aria-label="Main navigation"><a href="#realms">The realms</a><a href="#archive">The archive</a><a href="#aerie">The Aerie</a></nav>
+  <a class="header-link" href="#archive">Enter the archive <span aria-hidden="true">↗</span></a>
+</header>
+<main id="home">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-art" aria-hidden="true"></div>
+    <div class="hero-content"><p class="eyebrow">A WORLD OF OLD MAGIC & KEPT PROMISES</p><h1 id="hero-title">Every oath<br>has a <em>history.</em></h1><p class="hero-copy">Two great Fae powers. A mortal realm between them.<br>Enter Elyndor—a world shaped by ancient loyalties,<br class="wide-only"> dangerous borders, and the people who cross them.</p><a class="button" href="#archive">Explore the lore <span aria-hidden="true">→</span></a><a class="text-link" href="#realms">Choose your path</a></div>
+    <div class="hero-foot"><span>THE LIVING ARCHIVE <b>·</b> VOL. I</span><span>LORE, LEGENDS & THE LIVES BETWEEN</span><a href="#realms" aria-label="Scroll to the realms">↓</a></div>
+  </section>
+  <section id="realms" class="section realms">
+    <div class="section-heading"><div><p class="eyebrow">01 / ACROSS THE BORDERS</p><h2>One world. Many allegiances.</h2></div><p>Follow the old roads.<br>See whose laws await you.</p></div>
+    <div class="realm-grid">
+      <a class="realm thorn" href="#entry/court-of-thorns"><span class="realm-number">I</span><span class="sigil" aria-hidden="true">♜</span><p class="eyebrow">RESILIENCE · LOYALTY · PROTECTION</p><h3>Court of Thorns</h3><p>Ancient forests, thorn-bound strongholds, and promises measured by what they survive.</p><span class="realm-link">Beyond the briars <b>↗</b></span></a>
+      <a class="realm varrinth" href="#entry/varrinth"><span class="realm-number">II</span><span class="sigil" aria-hidden="true">☾</span><p class="eyebrow">OLD LAW · SHADOW · OATHS</p><h3>Varrinth</h3><p>Moonlit forests and shifting roads. A land where the wording of a promise matters.</p><span class="realm-link">Walk the old roads <b>↗</b></span></a>
+      <a class="realm maynerim" href="#entry/maynerim"><span class="realm-number">III</span><span class="sigil" aria-hidden="true">✧</span><p class="eyebrow">MORTALS · TRADE · POSSIBILITY</p><h3>Maynerim</h3><p>Merchants, travelers, and mountain cities finding their own place between great powers.</p><span class="realm-link">Across the mortal realm <b>↗</b></span></a>
+    </div>
+  </section>
+  <section id="archive" class="section archive">
+    <div class="section-heading"><div><p class="eyebrow">02 / THE COLLECTED LORE</p><h2>Open the archive.</h2></div><p>People, places, and the threads<br>that bind a world together.</p></div>
+    <div class="archive-tools"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search a name, place, or fragment of lore…" aria-label="Search the lore archive"><kbd aria-hidden="true">/</kbd></label><label class="sort-label">Order <select id="sort" aria-label="Sort entries"><option value="featured">Archive order</option><option value="az">A–Z</option></select></label></div>
+    <div id="filters" class="filters" role="group" aria-label="Filter by category"></div>
+    <div class="results-bar"><p id="result-count" role="status" aria-live="polite"></p><button id="reset" class="reset" hidden>Clear filters</button></div>
+    <div id="entries" class="entry-grid"></div><div id="pagination" class="pagination"></div>
+    <noscript><p>Enable JavaScript to search and read the full archive. Elyndor includes the Court of Thorns, Varrinth, and Maynerim. The Aerie at Caer Avar stands between the mortal city and sovereign dragon territory.</p></noscript>
+  </section>
+  <section id="aerie" class="aerie section"><div class="aerie-mark" aria-hidden="true">✦<span>ASH<br>& SKY</span></div><div><p class="eyebrow">03 / ABOVE THE CROWNSPINES</p><h2>“Will you rise<br><em>with me?</em>”</h2><p>At the Aerie at Caer Avar, partnership begins with a choice.<br>Dragon chooses human. Human chooses dragon.<br>And between them, something new takes flight.</p><a class="button" href="#category/Aerie%20%26%20Dragons">Discover the Aerie <span aria-hidden="true">↗</span></a></div><p class="aerie-note">CONCORD<br><span>A partnership chosen twice.</span></p></section>
+  <section class="archive-note section"><span aria-hidden="true">✧</span><div><p class="eyebrow">A WORLD STILL UNFOLDING</p><p>This archive gathers Elyndor’s established lore and the developing dragon records of Caer Avar. Provisional details remain identified in their entries. Every new page leaves room for another story.</p></div></section>
+</main>
+<footer><a class="brand" href="#home">ELYNDOR</a><p>An original world by Nyx & Juni.</p><a href="https://github.com/s0ftreset/HouseOfNyxandJuni">View on GitHub ↗</a></footer>
+<dialog id="reader" aria-labelledby="reader-title"><div class="reader-toolbar"><span>THE ELYNDOR ARCHIVE</span><button id="close-reader" aria-label="Close entry">Close <span aria-hidden="true">×</span></button></div><article><p id="reader-category" class="eyebrow"></p><h2 id="reader-title"></h2><div id="reader-body"></div><div id="related"></div><p id="reader-source" class="source"></p><button id="copy-link" class="text-link">Copy entry link</button><span id="copy-status" role="status"></span></article></dialog>
+</body>
+</html>
