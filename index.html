@@ -5,14 +5,14 @@
   <meta name="theme-color" content="#1c1712">
   <meta name="description" content="Explore Elyndor: the Great Fae Courts, the mortal realm of Maynerim, and the dragons of Caer Avar. An original fantasy lore archive by Nyx and Juni.">
   <title>Elyndor | The Living Archive</title>
-  <link rel="preload" as="image" href="castle-dusk.webp"><link rel="icon" href="crest.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
-  <script src="lore.js" defer></script><script src="app.js" defer></script>
+  <link rel="preload" as="image" href="castle-dusk.webp"><link rel="icon" href="crest.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="galleries.css">
+  <script src="lore.js" defer></script><script src="media.js" defer></script><script src="app.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#archive">Skip to the archive</a>
 <header class="header">
   <a class="brand" href="#home" aria-label="Elyndor home"><img src="crest.svg" alt="" width="38" height="48"><span>ELYNDOR<small>HOUSE OF NYX & JUNI</small></span></a>
-  <nav aria-label="Main navigation"><a href="#realms">The realms</a><a href="#archive">The archive</a><a href="#aerie">The Aerie</a></nav>
+  <nav aria-label="Main navigation"><a href="#realms">The realms</a><a href="#characters">Characters</a><a href="#locations">Locations</a><a href="#archive">The archive</a><a href="#aerie">The Aerie</a></nav>
   <a class="header-link" href="#archive">Enter the archive <span aria-hidden="true">↗</span></a>
 </header>
 <main id="home">
@@ -29,6 +29,16 @@
       <a class="realm maynerim" href="#entry/maynerim"><span class="realm-number">III</span><span class="sigil" aria-hidden="true">✧</span><p class="eyebrow">MORTALS · TRADE · POSSIBILITY</p><h3>Maynerim</h3><p>Merchants, travelers, and mountain cities finding their own place between great powers.</p><span class="realm-link">Across the mortal realm <b>↗</b></span></a>
     </div>
   </section>
+  <section id="characters" class="section photo-section" aria-labelledby="characters-title">
+    <div class="section-heading"><div><p class="eyebrow">THE PORTRAIT HALL</p><h2 id="characters-title">Faces of Elyndor.</h2></div><p>The people behind the promises.<br>Select an image to see the full artwork.</p></div>
+    <div id="character-gallery" class="photo-grid"></div>
+    <a class="gallery-browse" href="#category/Characters">Browse all character lore <span aria-hidden="true">↗</span></a>
+  </section>
+  <section id="locations" class="section photo-section location-section" aria-labelledby="locations-title">
+    <div class="section-heading"><div><p class="eyebrow">THE ILLUSTRATED ATLAS</p><h2 id="locations-title">Beyond the written page.</h2></div><p>Landscapes, cities, and distant horizons.<br>A window into the world.</p></div>
+    <div id="location-gallery" class="photo-grid location-grid"></div>
+    <a class="gallery-browse" href="#category/Places">Browse all location lore <span aria-hidden="true">↗</span></a>
+  </section>
   <section id="archive" class="section archive">
     <div class="section-heading"><div><p class="eyebrow">CHAPTER II · THE COLLECTED LORE</p><h2>Open the archive.</h2></div><p>People, places, and the threads<br>that bind a world together.</p></div>
     <div class="archive-tools"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search a name, place, or fragment of lore…" aria-label="Search the lore archive"><kbd aria-hidden="true">/</kbd></label><label class="sort-label">Order <select id="sort" aria-label="Sort entries"><option value="featured">Archive order</option><option value="az">A–Z</option></select></label></div>
@@ -41,6 +51,11 @@
   <section class="archive-note section"><span aria-hidden="true">✧</span><div><p class="eyebrow">A WORLD STILL UNFOLDING</p><p>This archive gathers Elyndor’s established lore and the developing dragon records of Caer Avar. Provisional details remain identified in their entries. Every new page leaves room for another story.</p></div></section>
 </main>
 <footer><a class="brand" href="#home">ELYNDOR</a><p>An original world by Nyx & Juni.</p><a href="https://github.com/s0ftreset/HouseOfNyxandJuni">View on GitHub ↗</a></footer>
-<dialog id="reader" aria-labelledby="reader-title"><div class="reader-toolbar"><span>THE ELYNDOR ARCHIVE</span><button id="close-reader" aria-label="Close entry">Close <span aria-hidden="true">×</span></button></div><article><p id="reader-category" class="eyebrow"></p><h2 id="reader-title"></h2><div id="reader-body"></div><div id="related"></div><p id="reader-source" class="source"></p><button id="copy-link" class="text-link">Copy entry link</button><span id="copy-status" role="status"></span></article></dialog>
+<dialog id="reader" aria-labelledby="reader-title"><div class="reader-toolbar"><span>THE ELYNDOR ARCHIVE</span><button id="close-reader" aria-label="Close entry">Close <span aria-hidden="true">×</span></button></div><article><p id="reader-category" class="eyebrow"></p><h2 id="reader-title"></h2><div id="reader-photos" class="reader-photos" hidden></div><div id="reader-body"></div><div id="related"></div><p id="reader-source" class="source"></p><button id="copy-link" class="text-link">Copy entry link</button><span id="copy-status" role="status"></span></article></dialog>
+<dialog id="lightbox" aria-labelledby="lightbox-title">
+  <div class="reader-toolbar"><h2 id="lightbox-title">Elyndor artwork</h2><button id="close-lightbox" aria-label="Close full-size artwork" autofocus>Close <span aria-hidden="true">×</span></button></div>
+  <figure><img id="lightbox-image" alt=""><figcaption id="lightbox-caption"></figcaption></figure>
+  <div class="lightbox-controls"><button id="previous-photo" aria-label="Previous image">← Previous</button><span id="photo-counter" aria-live="polite"></span><button id="next-photo" aria-label="Next image">Next →</button></div>
+</dialog>
 </body>
 </html>

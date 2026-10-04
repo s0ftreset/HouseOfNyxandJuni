@@ -1,5 +1,7 @@
 'use strict';
 const entries = window.ELYNDOR_ENTRIES;
+const media = window.ELYNDOR_MEDIA || [];
+let currentPhotoIndex = 0, currentPhotoGroup = [];
 const categories = ['All entries', 'Characters', 'Places', 'Houses', 'Magic', 'Customs', 'Chronicles', 'Aerie & Dragons'];
 const $ = id => document.getElementById(id);
 let category = 'All entries', query = '', sort = 'featured', page = 1, returnHash = '#archive';
@@ -11,6 +13,58 @@ function selectEntries() {
   return sort === 'az' ? found.sort((a,b) => a.name.localeCompare(b.name)) : found;
 }
 function element(tag, className, text) { const el = document.createElement(tag); if (className) el.className = className; if (text !== undefined) el.textContent = text; return el; }
+function mediaImage(photo) {
+  const img = element('img'); img.src = photo.src; img.alt = photo.alt;
+  img.width = photo.width; img.height = photo.height; img.loading = 'lazy'; img.decoding = 'async';
+  return img;
+}
+function photoButton(photo, group) {
+  const button = element('button', 'photo-open'); button.type = 'button';
+  button.setAttribute('aria-label', 'View full artwork: ' + photo.title);
+  button.append(mediaImage(photo), element('span', 'photo-zoom', 'View full artwork ↗'));
+  button.onclick = () => openPhoto(photo.id, group);
+  return button;
+}
+function renderGalleries() {
+  [['character', 'character-gallery'], ['location', 'location-gallery']].forEach(([kind,id]) => {
+    const photos = media.filter(photo => photo.kind === kind);
+    $(id).replaceChildren(...photos.map(photo => {
+      const card = element('article', 'photo-card');
+      const body = element('div', 'photo-caption');
+      const title = element('h3'); const link = element('a', '', photo.title); link.href = '#entry/' + photo.entryId; title.append(link);
+      const lore = element('a', 'photo-lore', 'Read the lore ↗'); lore.href = link.href;
+      body.append(element('p', 'eyebrow', photo.subtitle), title, lore);
+      card.append(photoButton(photo, photos), body); return card;
+    }));
+    if (!photos.length) $(id).append(element('p', 'gallery-empty', 'Artwork will appear here as the collection grows.'));
+  });
+}
+function renderEntryPhotos(entry) {
+  const photos = entry ? media.filter(photo => photo.entryId === entry.id) : [];
+  $('reader-photos').hidden = !photos.length;
+  $('reader-photos').replaceChildren(...photos.map(photo => {
+    const figure = element('figure'); figure.append(photoButton(photo, photos), element('figcaption', '', photo.caption)); return figure;
+  }));
+}
+function openPhoto(id, group) {
+  currentPhotoGroup = group; currentPhotoIndex = group.findIndex(photo => photo.id === id);
+  if (currentPhotoIndex < 0) return;
+  updatePhoto(); $('lightbox').showModal(); document.body.classList.add('viewing-photo');
+}
+function updatePhoto() {
+  const photo = currentPhotoGroup[currentPhotoIndex];
+  $('lightbox-title').textContent = photo.title;
+  $('lightbox-image').src = photo.src; $('lightbox-image').alt = photo.alt;
+  $('lightbox-caption').textContent = photo.caption;
+  $('photo-counter').textContent = (currentPhotoIndex + 1) + ' / ' + currentPhotoGroup.length;
+  $('previous-photo').disabled = currentPhotoIndex === 0;
+  $('next-photo').disabled = currentPhotoIndex === currentPhotoGroup.length - 1;
+  $('previous-photo').hidden = $('next-photo').hidden = currentPhotoGroup.length < 2;
+}
+function movePhoto(delta) {
+  const next = currentPhotoIndex + delta;
+  if (next >= 0 && next < currentPhotoGroup.length) { currentPhotoIndex = next; updatePhoto(); }
+}
 function render() {
   $('filters').replaceChildren(...categories.map(name => { const button = element('button', '', name); button.type = 'button'; button.setAttribute('aria-pressed', String(category === name)); button.onclick = () => { category = name; page = 1; render(); }; return button; }));
   const found = selectEntries();
@@ -52,6 +106,7 @@ function route() {
     $('reader-title').textContent = entry ? entry.name : 'This page has not been written.';
     $('reader-category').textContent = entry ? entry.category : 'ENTRY NOT FOUND';
     renderBody(entry ? entry.body : 'Return to the archive to find another entry.');
+    renderEntryPhotos(entry);
     $('reader-source').textContent = entry ? 'Source: ' + entry.source : '';
     $('copy-link').hidden = !entry;
     $('related').replaceChildren();
@@ -77,5 +132,21 @@ $('reader').addEventListener('click', event => { if (event.target === $('reader'
 $('reader').addEventListener('close', () => { document.body.classList.remove('reading'); if (location.hash.startsWith('#entry/')) { history.replaceState(null, '', returnHash); document.title = 'Elyndor | The Living Archive'; } });
 $('copy-link').onclick = async () => { try { await navigator.clipboard.writeText(location.href); $('copy-status').textContent = 'Link copied.'; } catch { $('copy-status').textContent = 'Copy the address from your browser to share this entry.'; } };
 window.addEventListener('hashchange', route);
-document.addEventListener('keydown', event => { if (event.key === '/' && !$('reader').open && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)) { event.preventDefault(); $('search').focus(); $('archive').scrollIntoView(); } });
-render(); route();
+$('close-lightbox').onclick = () => $('lightbox').close();
+$('previous-photo').onclick = () => movePhoto(-1);
+$('next-photo').onclick = () => movePhoto(1);
+$('lightbox').addEventListener('close', () => document.body.classList.remove('viewing-photo'));
+$('lightbox').addEventListener('click', event => {
+  if (event.target !== $('lightbox')) return;
+  const rect = $('lightbox').getBoundingClientRect();
+  if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) $('lightbox').close();
+});
+document.addEventListener('keydown', event => {
+  if ($('lightbox').open) {
+    if (event.key === 'ArrowLeft') { event.preventDefault(); movePhoto(-1); }
+    if (event.key === 'ArrowRight') { event.preventDefault(); movePhoto(1); }
+    return;
+  }
+  if (event.key === '/' && !$('reader').open && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)) { event.preventDefault(); $('search').focus(); $('archive').scrollIntoView(); }
+});
+renderGalleries(); render(); route();
