@@ -18,7 +18,7 @@ This first edition contains 97 reader-facing entries from `Elyndor_Master_Lorebo
 
 No install or build is required. Open `index.html` directly or serve this folder with `python3 -m http.server 8000`. All local assets use relative paths for GitHub project Pages. Google Fonts is optional; serif and sans-serif fallbacks work offline. Entry bodies are rendered as text, never as HTML.
 
-`style.css` controls the visual design. `landscape.svg` is an original decorative illustration, not a geographic map or canonical depiction of a named fortress. `crest.svg` is a decorative site emblem, not a noble-house crest.
+`style.css` controls the visual design. `castle-dusk.webp` is a generated, painted medieval castle landscape, used as decorative website artwork rather than a canonical depiction of a named fortress. The original `landscape.svg` is retained as an earlier decorative illustration. `ornament.svg` supplies manuscript-style border flourishes. The design uses aged parchment, oxblood, antique gold, display capitals, and readable book typography. `crest.svg` is a decorative site emblem, not a noble-house crest.
 
 ## Content ownership
 

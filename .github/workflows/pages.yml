@@ -23,7 +23,7 @@ jobs:
       - name: Prepare public files
         run: |
           mkdir -p _site
-          cp index.html style.css app.js lore.js crest.svg landscape.svg .nojekyll _site/
+          cp index.html style.css app.js lore.js crest.svg landscape.svg castle-dusk.webp ornament.svg .nojekyll _site/
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
