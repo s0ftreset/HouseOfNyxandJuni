@@ -142,4 +142,18 @@ window.ELYNDOR_MEDIA = [
   "alt": "An illustrated parchment map of Caer Avar, with labeled terraces, towers, training grounds, and mountain approaches.",
   "caption": "Caer Avar · Illustrated academy map"
 }
+,
+{
+  "id": "calista",
+  "entryId": "caer-calista-daine",
+  "kind": "character",
+  "collection": "caer-avar",
+  "title": "Calista Daine",
+  "subtitle": "Second-year rider · Rhazira",
+  "src": "images/calista.webp",
+  "width": 1672,
+  "height": 941,
+  "alt": "Calista with long auburn hair and dark riding leathers beside a copper-red dragon, overlooking the mountain academy at sunset.",
+  "caption": "Calista Daine · Character artwork"
+}
 ];
