@@ -238,13 +238,6 @@ window.ELYNDOR_ENTRIES = [
     "source": "Elyndor master lorebook · supplied 4 October 2026"
   },
   {
-    "id": "brenn-varrow",
-    "name": "Brenn Varrow",
-    "category": "Characters",
-    "body": "Brenn Varrow is a Thorn Fae, roughly 230 years old, and Koenig Till's primary field lieutenant. Very tall and heavily built, with dark auburn hair, weathered features and numerous old scars, Brenn oversees dangerous field operations, tracking, ambushes, security and extraction. He values demonstrated competence and loyalty over rank or charm. His allegiance to Koenig is intensely personal but seldom explained. Brenn knows Koenig is the Shrike and is among the extremely few people Koenig has trusted beside him during Shrike operations.",
-    "source": "Elyndor master lorebook · supplied 4 October 2026"
-  },
-  {
     "id": "elsie-bramble",
     "name": "Elsie Bramble",
     "category": "Characters",
