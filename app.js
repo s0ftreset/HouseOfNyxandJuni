@@ -78,8 +78,8 @@ function renderSecrets() {
       details.append(figure);
     }
     (file.sections || []).forEach(section => {
-      const block = element('section', 'secret-section');
-      block.append(element('h3', '', section.title), element('p', '', section.body));
+      const block = element(section.collapsible ? 'details' : 'section', section.collapsible ? 'secret-section secret-record' : 'secret-section');
+      block.append(element(section.collapsible ? 'summary' : 'h3', '', section.title), element('p', '', section.body));
       details.append(block);
     });
     return details;
@@ -92,7 +92,7 @@ function showView(hash) {
   $('caer-view').hidden = view !== 'caer'; $('home').hidden = view !== 'home'; $('faces-view').hidden = view !== 'faces'; $('secrets-view').hidden = view !== 'secrets';
   if (view !== 'secrets') {
     $('spoiler-gate').open = false;
-    document.querySelectorAll('.secret-file').forEach(file => { file.open = false; });
+    document.querySelectorAll('.secret-file, .secret-record').forEach(file => { file.open = false; });
   }
   if (activeView !== view) window.scrollTo(0, 0);
   activeView = view;

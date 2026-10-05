@@ -53,3 +53,6 @@ footer .secret-sigil{font-size:22px;color:#9e8459;border:0;padding:6px 12px}foot
 
 /* Artwork stays behind its individual spoiler seal. */
 .secret-artwork{margin:0 20px 24px;padding:5px;border:1px solid #94703966;background:#17120e}.secret-artwork .photo-open img{height:auto;max-height:540px;object-fit:contain}.secret-artwork figcaption{padding:10px;font-size:15px;line-height:1.5;color:#c4af8b}.secret-section{padding:0 20px 22px}.secret-section h3{font-family:var(--capitals);font-size:14px;line-height:1.6;color:#dfc290;margin:0 0 12px}.secret-section p{font-size:20px;line-height:1.7;color:#d4c0a2;white-space:pre-line;margin:0}
+
+/* Individual court records remain closed until deliberately opened. */
+.secret-record{margin:0 20px 16px;padding:0;border:1px solid #735133;background:#211510}.secret-record>summary{padding:16px;cursor:pointer;color:#dfc290;font-family:var(--capitals);font-size:12px;line-height:1.6}.secret-record>p{padding:0 18px 20px;font-size:19px;line-height:1.75;white-space:pre-line}.secret-record[open]>summary{border-bottom:1px solid #735133;margin-bottom:18px}
