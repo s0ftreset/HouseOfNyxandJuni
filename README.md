@@ -43,3 +43,8 @@ The small footer seal opens `#secrets`; typing THORNS outside a text field is an
 `#caer-avar` opens the dedicated illustrated chapter. The supplied current Caer Avar JSON replaces the earlier 18-entry outline; legacy `aerie-0` through `aerie-17` links resolve to current subject records. Public records retain provisional wording and remove DJAI trigger underscores. Hidden records remain unpublished; Brenn has a public portrait/profile with hidden parentage omitted. Related public descriptions omit references revealing Tavian's hidden manifestation. No new secret-room files were added. The uploaded Caitlin portrait was confirmed by the author as Calista Daine and is published with her lore.
 
 Eight new artworks preserve their full composition: academy map, Brenn, Dacian, Ilyra, Gunnar, Sorrel, Calista, and the trio. Existing character chat links are retained; no chat addresses were supplied for the new characters.
+
+
+## Dragon spoiler portraits · 4 October 2026
+
+The Sealed Archive now contains Gunnar & Ishkara and Sorrel & Aethren. Each individually closed record includes author-supplied artwork, the dragon profile, and future Calling lore from the current Caer Avar source. These records and images are not in normal search or galleries. Each image opens alone in the full-artwork viewer. Aethren's written appearance remains charcoal/violet despite the supplied red-dragon artwork; no visual canon rewrite was inferred.

@@ -72,6 +72,16 @@ function renderSecrets() {
   $('secret-files').replaceChildren(...files.map(file => {
     const details = element('details', 'secret-file');
     details.append(element('summary', '', file.title), element('p', '', file.body));
+    if (file.photo) {
+      const figure = element('figure', 'secret-artwork');
+      figure.append(photoButton(file.photo, [file.photo]), element('figcaption', '', file.photo.caption));
+      details.append(figure);
+    }
+    (file.sections || []).forEach(section => {
+      const block = element('section', 'secret-section');
+      block.append(element('h3', '', section.title), element('p', '', section.body));
+      details.append(block);
+    });
     return details;
   }));
   if (!files.length) $('secret-files').append(element('p', 'sealed-empty', 'The shelves are waiting. No secret records have been placed here yet.'));
