@@ -50,4 +50,96 @@ window.ELYNDOR_MEDIA = [
     alt: 'Elyndor title artwork showing an illuminated fantasy city, towering waterfalls, bridges, distant palaces, and misty mountains at twilight.',
     caption: 'Elyndor · Twilight City of Waterfalls · World artwork, not a geographical map'
   }
+,
+{
+  "id": "brenn",
+  "entryId": "caer-brenn-varrow",
+  "kind": "character",
+  "collection": "caer-avar",
+  "title": "Brenn Varrow",
+  "subtitle": "Second-year rider",
+  "src": "images/brenn.webp",
+  "width": 1254,
+  "height": 1254,
+  "alt": "A red-haired, muscular Brenn in dark riding gear beside a blue dragon.",
+  "caption": "Brenn Varrow · Character artwork"
+},
+{
+  "id": "dacian",
+  "entryId": "caer-dacian-rathen",
+  "kind": "character",
+  "collection": "caer-avar",
+  "title": "Dacian Rathen",
+  "subtitle": "Second-year rider · Veyrath",
+  "src": "images/dacian.webp",
+  "width": 1672,
+  "height": 941,
+  "alt": "Dacian in dark riding leathers beside a black-violet dragon above a mountain academy.",
+  "caption": "Dacian Rathen · Character artwork"
+},
+{
+  "id": "ilyra",
+  "entryId": "caer-ilyra-solren",
+  "kind": "character",
+  "collection": "caer-avar",
+  "title": "Ilyra Solren",
+  "subtitle": "Wardwright · Draevra",
+  "src": "images/ilyra.webp",
+  "width": 1672,
+  "height": 941,
+  "alt": "Ilyra with long braids and practical riding gear beside an immense stone-gray dragon.",
+  "caption": "Ilyra Solren · Character artwork"
+},
+{
+  "id": "gunnar",
+  "entryId": "caer-gunnar-caulus",
+  "kind": "character",
+  "collection": "caer-avar",
+  "title": "Gunnar Caulus",
+  "subtitle": "First-year Flight student",
+  "src": "images/gunnar.webp",
+  "width": 1254,
+  "height": 1254,
+  "alt": "Gunnar seated in dark riding gear against the academy’s mountain towers.",
+  "caption": "Gunnar Caulus · Character artwork"
+},
+{
+  "id": "sorrel",
+  "entryId": "caer-sorrel-caith",
+  "kind": "character",
+  "collection": "caer-avar",
+  "title": "Sorrel Caith",
+  "subtitle": "Flight student · Field medicine",
+  "src": "images/sorrel.webp",
+  "width": 1254,
+  "height": 1254,
+  "alt": "Sorrel with fair braided hair in dark academy clothing, framed by mountain towers.",
+  "caption": "Sorrel Caith · Character artwork"
+},
+{
+  "id": "second-year-trio",
+  "entryId": "caer-dacian-ilyra-brenn",
+  "kind": "character",
+  "collection": "caer-avar",
+  "title": "Dacian, Ilyra & Brenn",
+  "subtitle": "The second-year trio",
+  "src": "images/second-year-trio.webp",
+  "width": 1672,
+  "height": 941,
+  "alt": "Brenn, Ilyra, and Dacian standing together on a torchlit academy terrace.",
+  "caption": "Dacian, Ilyra & Brenn · Character artwork"
+},
+{
+  "id": "caer-avar-map",
+  "entryId": "caer-caer-avar",
+  "kind": "location",
+  "collection": "caer-avar",
+  "title": "Caer Avar",
+  "subtitle": "The city beneath the dragons",
+  "src": "images/caer-avar-map.webp",
+  "width": 1448,
+  "height": 1086,
+  "alt": "An illustrated parchment map of Caer Avar, with labeled terraces, towers, training grounds, and mountain approaches.",
+  "caption": "Caer Avar · Illustrated academy map"
+}
 ];

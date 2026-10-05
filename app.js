@@ -32,8 +32,8 @@ function photoButton(photo, group) {
   return button;
 }
 function renderGalleries() {
-  [['character', 'character-gallery'], ['location', 'location-gallery']].forEach(([kind,id]) => {
-    const photos = media.filter(photo => photo.kind === kind);
+  [['character', 'character-gallery'], ['location', 'location-gallery'], ['character', 'caer-portraits'], ['location', 'caer-map']].forEach(([kind,id]) => {
+    const photos = media.filter(photo => photo.kind === kind && (!id.startsWith('caer-') || photo.collection === 'caer-avar')); 
     $(id).replaceChildren(...photos.map(photo => {
       const card = element('article', 'photo-card');
       const body = element('div', 'photo-caption');
@@ -56,6 +56,17 @@ function renderEntryPhotos(entry) {
   const character = photos.find(photo => photo.chatUrl);
   if (character) $('reader-chat').append(chatLink(character));
 }
+function renderCaerRecords() {
+  const groups = ['The city & its people', 'The academy & Accord', 'The Calling & Concord', 'Dragon lore', 'Riders & their dragons'];
+  $('caer-records').replaceChildren(...groups.map(group => {
+    const records = entries.filter(entry => entry.collection === 'caer-avar' && entry.group === group);
+    const section = element('details', 'caer-record-group');
+    section.append(element('summary', '', group + ' · ' + records.length));
+    const list = element('ul');
+    records.forEach(entry => { const item = element('li'); const link = element('a', '', entry.name); link.href = '#entry/' + entry.id; item.append(link); list.append(item); });
+    section.append(list); return section;
+  }));
+}
 function renderSecrets() {
   const files = window.ELYNDOR_SECRETS || [];
   $('secret-files').replaceChildren(...files.map(file => {
@@ -67,16 +78,16 @@ function renderSecrets() {
 }
 let activeView = 'home';
 function showView(hash) {
-  const view = ['#characters','#character-hall'].includes(hash) ? 'faces' : ['#secrets','#secrets-title'].includes(hash) ? 'secrets' : 'home';
-  $('home').hidden = view !== 'home'; $('faces-view').hidden = view !== 'faces'; $('secrets-view').hidden = view !== 'secrets';
+  const view = ['#caer-avar', '#caer-title'].includes(hash) ? 'caer' : ['#characters','#character-hall'].includes(hash) ? 'faces' : ['#secrets','#secrets-title'].includes(hash) ? 'secrets' : 'home';
+  $('caer-view').hidden = view !== 'caer'; $('home').hidden = view !== 'home'; $('faces-view').hidden = view !== 'faces'; $('secrets-view').hidden = view !== 'secrets';
   if (view !== 'secrets') {
     $('spoiler-gate').open = false;
     document.querySelectorAll('.secret-file').forEach(file => { file.open = false; });
   }
   if (activeView !== view) window.scrollTo(0, 0);
   activeView = view;
-  document.title = view === 'faces' ? 'Faces of Elyndor | The Portrait Hall' : view === 'secrets' ? 'The Sealed Archive | Elyndor' : 'Elyndor | The Living Archive';
-  document.querySelector('.skip').href = view === 'faces' ? '#character-hall' : view === 'secrets' ? '#secrets-title' : '#archive';
+  document.title = view === 'caer' ? 'Caer Avar | The Aerie' : view === 'faces' ? 'Faces of Elyndor | The Portrait Hall' : view === 'secrets' ? 'The Sealed Archive | Elyndor' : 'Elyndor | The Living Archive';
+  document.querySelector('.skip').href = view === 'caer' ? '#caer-title' : view === 'faces' ? '#character-hall' : view === 'secrets' ? '#secrets-title' : '#archive';
 }
 function openPhoto(id, group) {
   currentPhotoGroup = group; currentPhotoIndex = group.findIndex(photo => photo.id === id);
@@ -124,7 +135,7 @@ function renderBody(text) {
   text.split(/\n\n+/).forEach(block => {
     if (/^[-\d]/.test(block) && block.split('\n').every(line => /^(?:- |\d+\. )/.test(line))) {
       const list = element(/^\d/.test(block) ? 'ol' : 'ul'); block.split('\n').forEach(line => list.append(element('li', '', line.replace(/^(?:- |\d+\. )/, '')))); container.append(list);
-    } else if (/^[A-H]\. |^Class [IVX]+|^Still to Develop$|^Established Foundations$/.test(block)) {
+    } else if (/^[A-H]\. |^Still to Develop$|^Established Foundations$/.test(block)) {
       container.append(element('h3', '', block));
     } else container.append(element('p', '', block.replace(/^> /gm, '')));
   });
@@ -133,7 +144,9 @@ function closeReader() { if ($('reader').open) $('reader').close(); }
 function route() {
   const hash = location.hash;
   if (hash.startsWith('#entry/')) {
-    const entry = entries.find(e => '#entry/' + e.id === hash);
+    const aliases = {"aerie-0": "caer-caer-avar", "aerie-1": "caer-avar-myren-caer-avar-s-founding", "aerie-2": "caer-the-aerie", "aerie-3": "caer-great-perch", "aerie-4": "caer-dragon-sovereignty-baseline", "aerie-5": "caer-concord-resonance-baseline", "aerie-6": "caer-concord-resonance-baseline", "aerie-7": "caer-the-calling", "aerie-8": "caer-first-ascent", "aerie-9": "caer-dragon-age-lifespan", "aerie-10": "caer-dragon-taxonomy-baseline", "aerie-11": "caer-dragon-taxonomy-baseline", "aerie-12": "caer-dragon-taxonomy-baseline", "aerie-13": "caer-dragon-taxonomy-baseline", "aerie-14": "caer-dragon-culture", "aerie-15": "caer-caer-avar-strategic-importance", "aerie-16": "caer-aerie-rider-stereotypes", "aerie-17": "caer-dragon-sovereignty-baseline"};
+    const requestedId = hash.slice(7);
+    const entry = entries.find(e => e.id === (aliases[requestedId] || requestedId));
     $('copy-status').textContent = '';
     $('reader-title').textContent = entry ? entry.name : 'This page has not been written.';
     $('reader-category').textContent = entry ? entry.category : 'ENTRY NOT FOUND';
@@ -187,4 +200,4 @@ document.addEventListener('keydown', event => {
   }
   if (event.key === '/' && !$('reader').open && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)) { event.preventDefault(); showView('#archive'); location.hash = '#archive'; $('search').focus(); $('archive').scrollIntoView(); }
 });
-renderGalleries(); renderSecrets(); render(); route();
+renderGalleries(); renderCaerRecords(); renderSecrets(); render(); route();

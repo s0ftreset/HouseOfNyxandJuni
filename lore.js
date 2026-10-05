@@ -602,129 +602,696 @@ window.ELYNDOR_ENTRIES = [
     "source": "Elyndor master lorebook · supplied 4 October 2026"
   },
   {
-    "id": "aerie-0",
-    "name": "Caer Avar — The City Beneath the Dragons",
+    "id": "caer-dragon-sovereignty-baseline",
+    "name": "Dragon Sovereignty Baseline",
     "category": "Aerie & Dragons",
-    "body": "Caer Avar is a fortified Maynerim city in the Ironspines, built where mortal civilization meets ancient dragon territory. Its geography, history, and relationship with the Crownspines made it the natural home of the Aerie and the center of modern human-dragon relations.\n\nA. Overview\n\n- Fortified Maynerim city in the Ironspines.\n- Built throughout the lower terraces of the Avar Vale.\n- Home of the Aerie at Caer Avar.\n- Functions as a civilian city, military stronghold, mountain trade center, center of scholarship, and human-dragon diplomatic center.\n- Maynerim does not claim sovereignty over the dragons living above the city.\n\nB. Avar Vale\n\n- Large high-altitude mountain basin.\n- Fertile enough to support permanent settlement.\n- Contains freshwater, forests, grazing land, and limited agriculture.\n- Several waterways originate in the surrounding mountains.\n- Guards an important passage through the Ironspines.\n\nC. The Crownspines\n\n- Mountains surrounding Avar Vale.\n- Upper reaches are recognized dragon territory.\n- Contain nesting cliffs, alpine valleys, volcanic caverns, mineral springs, obsidian fields, ancient ruins, dragon meeting grounds, and restricted territories.\n- Some locations are avoided even by dragons.\n\nD. The Avar Updrafts\n\n- Powerful thermal currents created by geothermal heat and cold mountain air.\n- Provide exceptional conditions for dragon flight.\n- Used for flight training, migration, travel, courtship flights, and territorial displays.\n- One of the major reasons dragons have inhabited the region for so long.\n\nE. The Hearth Below\n\n- Ancient magical-geological phenomenon beneath the Crownspines.\n- Exact nature unknown.\n- Possible explanations include a magical fault, geothermal magical concentration, an ancient magical event, connection to something deeper, or involvement of an Old Thing.\n- Not classified as a Veilbreak.\n- Produces geothermal heat, mineral springs, magical crystals, magnetic disturbances, and ambient magical pressure.\n- Dragons appear strongly drawn to it.\n- Possible connection to dragon reproduction, maturation, healing, or longevity remains unproven.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "Dragons are sapient sovereign people, not property, equipment, or domesticated animals. They predate Maynerim in the Crownspines. Human access to dragon territory depends on agreements and permission. Maynerim commands its soldiers but negotiates with dragons. Human rider rank never grants rank over a dragon.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The academy & Accord"
   },
   {
-    "id": "aerie-1",
-    "name": "History of Caer Avar — From Coexistence to Cooperation",
+    "id": "caer-concord-resonance-baseline",
+    "name": "Concord & Resonance Baseline",
     "category": "Aerie & Dragons",
-    "body": "Dragons inhabited the Crownspines long before Maynerim existed. Caer Avar grew from generations of cautious coexistence between mortals and dragons, eventually becoming a symbol of what Maynerim does best: encountering something powerful and unfamiliar, then figuring out how to work with it.\n\nA. Before Human Settlement\n\n- Dragons occupied the Crownspines before Maynerim or the Great Courts.\n- Early humans settled the lower Vale.\n- Territorial boundaries developed gradually.\n- Trade and occasional cooperation existed before formal diplomacy.\n- Humans did not discover dragons and bring them to Caer Avar; humans settled near territory dragons already occupied.\n\nB. Avar Myren\n\n- Mortal engineer, surveyor, and military architect.\n- Lived during Maynerim's early consolidation.\n- Sent to reinforce settlements threatened by landslides, creatures, and unstable mountain routes.\n- During a catastrophic winter, a collapse sealed the primary mountain passage and threatened nearby settlements with starvation.\n- Avar organized humans and dragons to reopen the passage.\n- Dragons moved masses of stone humans could not efficiently move.\n- Humans constructed supports, drainage systems, roads, and infrastructure the dragons could not.\n\nTraditional story:\n\n> Dragon: “You are very small to be this irritating.”\n\n> Avar: “And yet the road is open.”\n\n- Historicity of the exchange is uncertain.\n- Maynerim culture largely treats it as true anyway.\n\nC. Founding of Caer Avar\n\n- The original fortress was constructed to protect the reopened route.\n- Named Caer Avar — Avar's Fortress.\n- The settlement eventually expanded into a major fortified city.\n- Portions of the original fortress remain within the modern complex.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "Concord is a voluntary magical partnership: dragon chooses human and human chooses dragon. It creates connection without ownership, forced obedience, automatic romance, constant mind-reading, personality merging, or automatic memory sharing. Resonance is the unique magic created by dragon magic + rider magic + Concord; it belongs to that specific pair.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The Calling & Concord"
   },
   {
-    "id": "aerie-2",
-    "name": "The Aerie at Caer Avar — Maynerim's Premier Military Academy",
+    "id": "caer-dragon-taxonomy-baseline",
+    "name": "Dragon Taxonomy Baseline",
     "category": "Aerie & Dragons",
-    "body": "The Aerie is an elite military institution built between the human city below and dragon territory above. Although famous for its dragon riders, it trains officers and specialists throughout Maynerim's armed forces and serves as an important diplomatic institution between humans and dragons.\n\nA. Purpose\n\n- Maynerim's premier military academy.\n- Usually called simply the Aerie.\n- Graduates may be described as Aerie-trained.\n- Not exclusively a dragon-rider academy.\n- Represents cooperation between human civilization and dragon sovereignty.\n\nB. Location\n\n- Built on the upper terraces of Caer Avar.\n- Human city lies below.\n- Dragon territory lies above.\n- Its physical position symbolizes its role between both societies.\n\nC. Four Schools\n\nSchool of Command\n\nTrains:\n\n- Infantry officers\n- Cavalry officers\n- Strategists\n- Intelligence officers\n- Military administrators\n- Future senior commanders\n\nSchool of Artifice\n\nTrains:\n\n- Combat engineers\n- Alchemists\n- Wardwrights\n- Artificers\n- Siege specialists\n- Logistical specialists\n\nSchool of the Fleet\n\nTrains:\n\n- Naval officers\n- Marines\n- Navigators\n- Coastal-defense officers\n- Naval engineers\n\nSchool of Flight\n\n- Trains prospective dragon riders.\n- Smallest of the four Schools.\n- Most publicly famous.\n- Admission does not guarantee a dragon partnership.\n\nD. Flight Curriculum\n\nFlight candidates study:\n\n- Dragon law\n- Accord law\n- Aerial tactics\n- Meteorology\n- Navigation\n- Dragon anatomy\n- Emergency medicine\n- Diplomacy\n- Survival\n- Mountain operations\n- Military strategy\n\nRiders are expected to function as both military officers and diplomatic partners to sovereign beings.\n\nE. Dragonkeepers\n\n- Non-rider specialists who work alongside dragons.\n- May include healers, scholars, translators, habitat specialists, archivists, eggwardens, legal liaisons, and other specialists.\n- Dragons are assisted, not “handled.”\n- Terms implying ownership or domestication may be considered insulting.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "Keep dragon concepts separate: lineage describes physical/ecological form; affinity describes innate magical tendency; Concord is the voluntary partnership; Resonance is pair-created magic; rarity is documented frequency. Lineage ≠ affinity ≠ Concord ≠ Resonance ≠ rarity. Color does not determine magic. Rarity does not equal power.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
   },
   {
-    "id": "aerie-3",
-    "name": "Landmarks of Caer Avar — Where Human and Dragon Worlds Meet",
+    "id": "caer-caer-avar",
+    "name": "Caer Avar",
     "category": "Aerie & Dragons",
-    "body": "Caer Avar was built to accommodate two civilizations of radically different scale, biology, and law. Its most important landmarks reflect that unusual coexistence, from ancient territorial markers to enormous diplomatic spaces designed for dragons.\n\nA. Accord Stones\n\n- Ancient black stones marking recognized territorial boundaries.\n- Older than the modern Accord.\n- Neither humans nor dragons claim to have erected them.\n- Attempts to move them have failed.\n- React faintly to dragon magic.\n\nB. The Skyfields\n\n- Large aerial training grounds above the Aerie.\n- Include cliffs, terraces, launch areas, open fields, and emergency landing zones.\n- Used for first flights, aerial drills, formation practice, rescue training, emergency landings, and military exercises.\n- Civilian access is restricted.\n\nC. The Great Perch\n\n- Massive human-dragon amphitheater partially built into the mountainside.\n- Humans occupy lower galleries while dragons use enormous stone terraces.\n- Used for diplomacy, Accord councils, ceremonies, memorials, rider recognition, and joint hearings.\n- Deliberately has no highest seat.\n- Even Maynerim's sovereign or visiting High Lords are not symbolically placed above dragon representatives.\n\nD. The Lower Warrens\n\n- One of Caer Avar's oldest civilian districts.\n- Characterized by stone buildings, narrow streets, ancient drainage channels, taverns, and steep stairways.\n- Contains an unreasonable quantity of stairs.\n\nE. The High Market\n\n- Main commercial district.\n- Trades mountain herbs, metalwork, leather, climbing equipment, flight equipment, food, alchemical supplies, art, and Aerie merchandise.\n- Dragon-themed souvenirs are extremely popular.\n- Some actual dragons collect them.\n\nF. The Ash Houses\n\n- District associated with smithing, alchemy, artificing, and military engineering.\n- Handles legal conservation and use of voluntarily provided shed dragon material.\n- Dragon scales may only legally enter trade when naturally shed and given with the dragon's permission.\n- Dragon remains from known graves may not legally be traded.\n- Eggs, living tissue, stolen scales, bones, and other protected dragon materials are heavily regulated.\n- Illegal dragon-material trafficking is an extremely serious magical and diplomatic crime.\n\nG. Avar Healers' House\n\n- Specialized medical institution treating both humanoids and dragons.\n- Different specialists treat different species rather than assuming human or Fae medicine applies directly to dragons.\n- Human and Fae healers may collaborate with dragons possessing medical knowledge.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "Caer Avar is a fortified Maynerim city in the Ironspines, built across the lower terraces of Avar Vale beneath ancient dragon territory. It is a civilian city, military stronghold, mountain trade and scholarship center, diplomatic hub, and home of the Aerie. Maynerim does not claim sovereignty over dragons above the city.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The city & its people"
   },
   {
-    "id": "aerie-4",
-    "name": "Dragon Sovereignty — Dragons Are Neighbors, Not Property",
+    "id": "caer-avar-vale",
+    "name": "Avar Vale",
     "category": "Aerie & Dragons",
-    "body": "The foundation of Maynerim's relationship with dragons is the recognition that dragons are sapient sovereign people. Their cooperation with Maynerim is political and personal rather than ownership-based, and their territory, offspring, bodies, and choices are legally protected.\n\nA. Legal Status\n\n- Dragons are sapient sovereign persons.\n- They are neither Fae nor ordinary magical creatures.\n- They cannot legally be owned.\n- Dragons are not military equipment or domesticated animals.\n\nB. Territory\n\n- Upper Crownspines are recognized as dragon territory.\n- Human access is governed by agreements and permissions.\n\nC. Jurisdiction\n\n- Maynerim territory → Maynerim law.\n- Dragon territory → dragon sovereignty.\n- Designated shared territory → Accord law.\n\nD. The Accord of Ash and Sky\n\n- Current working title for the formal human-dragon agreement.\n- Recognizes dragon sovereignty and territorial rights.\n- Protects dragon eggs, offspring, bodies, and other interests.\n- Establishes conditions for voluntary human-dragon cooperation.\n- Prohibits enslavement, hunting, exploitation, egg theft, and nonconsensual experimentation.\n- Maynerim gains voluntary aerial military partnerships rather than ownership of dragons.\n- Exact history and provisions still require further development.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "Avar Vale is a fertile high-altitude mountain basin with freshwater, forests, grazing land, limited agriculture, and several originating waterways. It guards an important passage through the Ironspines and supports permanent settlement beneath the Crownspines.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The city & its people"
   },
   {
-    "id": "aerie-5",
-    "name": "The Concord — A Partnership Chosen Twice",
+    "id": "caer-the-crownspines",
+    "name": "The Crownspines",
     "category": "Aerie & Dragons",
-    "body": "The Concord is the voluntary magical bond formed between a dragon and rider. Unlike ownership or magical domination, it exists only when both individuals choose the relationship and creates connection without erasing either partner's autonomy.\n\nA. Formation\n\n1. Dragon chooses human.\n2. Human chooses dragon.\n3. Concord forms.\n\nB. Possible Effects\n\n- Awareness of the other's presence\n- Emotional impressions\n- Intentional communication\n- Coordinated flight and combat\n- Awareness of severe injury or distress\n- Magical interaction\n\nC. What Concord Does Not Do\n\n- Does not create ownership.\n- Does not create forced obedience.\n- Does not create automatic romance.\n- Does not allow constant mind-reading.\n- Does not merge personalities.\n- Does not automatically share complete memories.\n\nD. Death and Loss\n\n- Death of one partner does not automatically kill the other.\n- The surviving partner may suffer profound emotional and magical consequences.\n- Dragons may potentially have more than one rider throughout their long lives.\n- Riders may survive the death of their dragon.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "The Crownspines surround Avar Vale. Their upper reaches are recognized dragon territory containing nesting cliffs, alpine valleys, volcanic caverns, mineral springs, obsidian fields, ancient ruins, meeting grounds, and restricted territories. Some places are avoided even by dragons.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The city & its people"
   },
   {
-    "id": "aerie-6",
-    "name": "Resonance — The Magic Created Between Dragon and Rider",
+    "id": "caer-avar-updrafts",
+    "name": "Avar Updrafts",
     "category": "Aerie & Dragons",
-    "body": "Resonance is the unique magical expression created when a dragon's affinity interacts with its rider through Concord. Riders do not simply inherit dragon powers; the relationship itself produces something new.\n\nA. Core Formula\n\nDragon magic + rider magic + Concord = Resonance.\n\nB. Resonance Patterns\n\n- Known — repeatedly documented.\n- Unusual — infrequently documented.\n- Novel — no close historical precedent.\n- Anomalous — appears to challenge existing magical theory.\n\nC. Core Rules\n\n- Resonance belongs to the pair.\n- Two dragons with identical affinities may produce completely different Resonances with their riders.\n- Resonance may develop gradually rather than appearing fully formed immediately after Concord.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "The Avar Updrafts are powerful thermals created by geothermal heat meeting cold mountain air. They provide exceptional dragon-flight conditions and are used for training, migration, travel, courtship flights, and territorial displays. They are a major reason dragons have long inhabited the region.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The city & its people"
   },
   {
-    "id": "aerie-7",
-    "name": "The Calling — When Dragons Choose",
+    "id": "caer-avar-myren-caer-avar-s-founding",
+    "name": "Avar Myren & Caer Avar's Founding",
     "category": "Aerie & Dragons",
-    "body": "The Calling is the Aerie's formal selection period for prospective riders. Candidates enter dragon territory voluntarily and make themselves available for partnership, but no dragon is required to choose anyone and no candidate is entitled to be chosen.\n\nA. Eligibility\n\nCandidates must complete required:\n\n- Academic training\n- Physical training\n- Military training\n- Medical preparation\n- Dragon law\n- Accord law\n\nParticipation is voluntary.\n\nWithdrawing before the Calling is not considered dishonorable.\n\nB. Opening Ceremony\n\n- Candidates gather at the Great Perch.\n- They enter without ceremonial armor, family heraldry, House insignia, medals, or other markers of inherited status.\n- Names are read without titles.\n- Candidates enter as individuals rather than representatives of family status.\n\nA dragon representative asks:\n\n> “Do you enter freely?”\n\nThe candidate answers:\n\n> “I enter freely.”\n\nA person under magical compulsion cannot validly participate.\n\nC. The High Reach\n\n- Designated Calling territory within the lower Crownspines.\n- Candidates cross the Accord Stones into dragon territory.\n- Current proposed duration is three days.\n- Candidates receive food, water, medical supplies, climbing equipment, and weather protection.\n- There is no standardized route or obstacle course.\n\nTheir central instruction is:\n\n> “Go where you believe you should go.”\n\nD. Dragon Encounters\n\nDragons may:\n\n- Ignore candidates\n- Observe them\n- Speak to them\n- Follow them\n- Challenge them\n- Obstruct them\n- Question them\n- Test them\n\nThere is no standardized dragon test.\n\nEach dragon judges qualities that matter to that individual dragon.\n\nPotential considerations include:\n\n- Courage\n- Patience\n- Intelligence\n- Compassion\n- Aggression\n- Curiosity\n- Honesty\n- Judgment\n- Restraint\n- Humor\n- Adaptability\n- Self-awareness\n\nCandidates may not know whether a dragon's behavior is a deliberate test or simply normal dragon behavior.\n\nE. Candidate Conduct\n\n- Murder is prohibited.\n- Sabotage is prohibited.\n- There is no fixed number of available partnerships.\n- Eliminating another candidate provides no legitimate advantage.\n\nF. The Unchosen\n\nNot being chosen is not considered a moral or personal failure.\n\nAn unchosen candidate may:\n\n- Attempt one additional Calling in a later year\n- Transfer to Command\n- Transfer to Artifice\n- Transfer to Fleet\n- Become a Dragonkeeper\n- Enter another military specialty\n- Leave the Aerie\n\nAfter two Callings without selection, a candidate may not attempt again.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "Avar Myren was a mortal engineer, surveyor, and military architect. During the working-era event called the Winter of Broken Stone, a mountain collapse threatened settlements with starvation. Avar coordinated dragons moving massive stone with humans building supports, drainage, roads, and infrastructure. A fortress protecting the reopened route became Caer Avar.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The city & its people"
   },
   {
-    "id": "aerie-8",
-    "name": "First Ascent — The Moment Choice Becomes Concord",
+    "id": "caer-accord-of-ash-and-sky",
+    "name": "Accord of Ash and Sky",
     "category": "Aerie & Dragons",
-    "body": "First Ascent is the first flight between a dragon and the human it has chosen. It serves as the final mutual test before Concord and marks the transition from candidate to Called.\n\nA. Traditional Invitation\n\nDragon:\n\n> “Will you rise with me?”\n\nCandidate:\n\n> “If you will carry me.”\n\nDragon:\n\n> “Then rise.”\n\nB. First Flight\n\n- Candidate mounts without normal established-rider equipment.\n- Dragon initiates flight.\n- The dragon may climb, dive, bank, ride thermals, enter clouds, or otherwise assess the candidate's response to flight and fear.\n- Both retain the ability to refuse Concord.\n\nC. Formation of Concord\n\n- Dragon deliberately opens the possibility of magical connection.\n- Human deliberately accepts.\n- Mutual recognition forms.\n- Early Concord may initially involve presence, direction, emotional pressure, and crude intentional impressions rather than effortless telepathy.\n\nD. Return\n\n- Newly Concorded pairs return to Caer Avar by air.\n- Unchosen candidates return through the Accord Stones on foot.\n- Neither group is supposed to be mocked or shamed.\n- New pairs land at the Great Perch.\n- The dragon publicly gives the name it wishes humans to use.\n- The rider gives their own name.\n- Partnership is formally recorded.\n\nE. Called\n\nCurrent progression:\n\nFlight Candidate → Called → Rider\n\nLater military rider ranks remain undeveloped.\n\nF. Unscheduled Choosing\n\n- Dragons are not bound to choose only during the Calling.\n- Rarely, a dragon may choose another Aerie student, soldier, Dragonkeeper, healer, civilian, or other individual.\n- A consensual Concord cannot simply be invalidated because a dragon ignored human bureaucracy.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "The Accord of Ash and Sky is a working title for the formal human-dragon agreement. It recognizes dragon sovereignty and territory, protects offspring and bodies, establishes voluntary cooperation, and prohibits enslavement, hunting, exploitation, egg theft, and nonconsensual experimentation. Exact history and provisions remain under development.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The academy & Accord"
   },
   {
-    "id": "aerie-9",
-    "name": "Dragon Biology — Ancient Bodies Built for Magic and Flight",
+    "id": "caer-the-aerie",
+    "name": "The Aerie",
     "category": "Aerie & Dragons",
-    "body": "Dragons are extraordinarily long-lived magical beings whose biology varies substantially between lineages. They continue growing through much of their lives, mature slowly, and cannot be neatly understood through human or Fae biological assumptions.\n\nA. Approximate Human Age Classifications\n\n- Hatchling: 0–15 years\n- Juvenile: 15–40 years\n- Young: 40–100 years\n- Mature: 100–400 years\n- Elder: 400–800 years\n- Ancient: 800+ years\n\nThese are human scholarly categories and may not reflect dragon concepts of age or adulthood.\n\nB. Lifespan\n\n- Some confirmed dragons have lived beyond 1,200 years.\n- Stories of dragons exceeding 2,000 years exist but remain unverified.\n\nC. Concord Age\n\n- Juvenile dragons do not Concord.\n- Partnership is treated as an adult decision between mature individuals.\n- Young dragons may still interact with humans and develop opinions about potential future riders.\n\nD. Sex and Gender\n\n- Sex does not determine size, affinity, combat ability, social status, or likelihood of Concord.\n- Dragons possess concepts of gender and identity that do not necessarily map perfectly onto human or Fae terminology.\n- When speaking human languages, dragons generally indicate which terms they wish others to use.\n\nE. Coloration\n\nDragon colors may include:\n\n- Black\n- Charcoal\n- Slate\n- Silver\n- White\n- Cream\n- Bronze\n- Copper\n- Gold\n- Red\n- Rust\n- Brown\n- Green\n- Blue\n- Violet\n- Mixed combinations\n\nScales may be:\n\n- Matte\n- Metallic\n- Iridescent\n- Patterned\n- Mottled\n- Striped\n- Gradient\n\nColor does not determine affinity, temperament, morality, lineage, or strength.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "The Aerie at Caer Avar is Maynerim's premier military academy, built on upper city terraces between the human city below and dragon territory above. It trains officers and specialists across four Schools and serves as a human-dragon diplomatic institution. It is not exclusively a rider academy.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The academy & Accord"
   },
   {
-    "id": "aerie-10",
-    "name": "Dragon Lineages — The Major Physical Forms of Dragonkind",
+    "id": "caer-aerie-four-schools",
+    "name": "Aerie — Four Schools",
     "category": "Aerie & Dragons",
-    "body": "Lineage describes a dragon's broad anatomy, ecology, and flight specialization. It does not determine personality, magical affinity, morality, or power. Modern scholars recognize six major living lineages, although dragons themselves do not necessarily use human taxonomy.\n\nA. Crownwing — Class I: Common\n\n- Typical length: 60–90 feet / 18–27 meters.\n- Exceptional ancients may exceed 100 feet.\n- Four legs, enormous wings, long necks and tails, prominent horns or crown-like head ridges.\n- Among the largest living dragons.\n- Powerful soaring dragons.\n- Excel at high-altitude and long-distance flight.\n- Particularly associated with mountains and open skies.\n- Useful for reconnaissance, strategic aerial combat, long-range patrol, command, and high-altitude operations.\n\nB. Cragback — Class I: Common\n\n- Typical length: 55–80 feet / 17–24 meters.\n- Massive, heavily built bodies.\n- Broad wings, powerful legs, thick necks, heavy skulls, armored scale plates, thick tails.\n- Often heavier than Crownwings of comparable length.\n- Slower but extremely stable and physically resilient.\n- Flight relies heavily on powerful wingbeats and magic.\n- Excel in heavy aerial combat, siege operations, evacuation, troop protection, and carrying heavy loads.\n\nC. Razorwing — Class II: Uncommon\n\n- Typical length: 35–55 feet / 11–17 meters.\n- Lean, lightweight frames.\n- Narrow swept wings, long balancing tails, relatively short necks, narrow heads.\n- Fastest sustained flyers among recognized lineages.\n- Excel at diving, pursuit, rapid climbing, interception, evasive maneuvers, scouting, and rapid-response missions.\n- Favor cliffs, mountain ridges, and coastal escarpments.\n\nD. Thornclaw — Class II: Uncommon\n\n- Typical length: 30–50 feet / 9–15 meters.\n- Most terrestrially specialized major lineage.\n- Four long powerful legs, smaller wings, flexible bodies, long tails, exceptional claws.\n- Capable flyers but excel at low flight, gliding, climbing, running, and difficult terrain.\n- Thrive in forests, ravines, broken mountains, and wilderness.\n- Excel in tracking, rescue, border patrol, wilderness operations, and anti-monster work.\n- Name is unrelated to the Court of Thorns.\n\nE. Vesperwing — Class III: Rare\n\n- Typical length: 40–65 feet / 12–20 meters.\n- Primarily crepuscular or nocturnal.\n- Broad flexible wings, large eyes, delicate horn structures, sensitive hearing.\n- Scale formations reduce flight noise.\n- Excel at nighttime flight, forest maneuvering, low-visibility navigation, and silent approach.\n- Particularly effective in reconnaissance, search-and-rescue, magical-threat detection, and covert operations.\n\nF. Mirewyrm — Class III: Rare\n\n- Typical length: 45–75 feet / 14–23 meters.\n- Semi-aquatic.\n- Long serpentine bodies, relatively short powerful legs, broad tails, webbed claws, smaller wings, smooth overlapping scales.\n- Capable but unexceptional flyers.\n- Extraordinary swimmers.\n- Inhabit lakes, deep rivers, wetlands, and coastal regions.\n- Excel in river patrol, naval operations, coastal defense, underwater recovery, maritime rescue, and ship escort.\n- A possible old population near Lake Morren remains undecided.\n\nG. Elderform — Class V: Singular\n\n- Not technically a seventh lineage.\n- Describes extremely old or morphologically unusual dragons that do not fit modern categories.\n- May possess combinations of lineage traits or structures absent from modern dragons.\n- Possible traits include unusual horn arrangements, strange wing structures, feather-like scales, extreme size, vestigial structures, or bioluminescent markings.\n- Only a handful of confirmed living Elderforms may exist.\n- Elderform does not automatically mean more powerful.\n\nH. Cross-Lineage Ancestry\n\n- Different dragon lineages can reproduce with one another.\n- Offspring commonly resemble one parental lineage more strongly while retaining traits associated with other ancestry.\n- Dragon genealogy therefore does not divide cleanly into human taxonomic categories.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "The Aerie has four Schools. Command trains officers, strategists, intelligence staff, administrators, and future commanders. Artifice trains engineers, alchemists, wardwrights, artificers, siege and logistics specialists. Fleet trains naval officers, marines, navigators, coastal defense, and naval engineers. Flight trains prospective dragon riders.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The academy & Accord"
   },
   {
-    "id": "aerie-11",
-    "name": "Dragon Affinities — The Natural Shape of Dragon Magic",
+    "id": "caer-school-of-flight-curriculum",
+    "name": "School of Flight Curriculum",
     "category": "Aerie & Dragons",
-    "body": "Affinity describes the fundamental magical tendency native to an individual dragon. Dragons sharing an affinity may express it differently, and affinity remains independent of lineage, coloration, and personality.\n\nClass I — Common\n\nEmber\n\nAssociated with:\n\n- Heat\n- Flame\n- Combustion\n- Thermal effects\n\nEmber does not simply mean “breathes fire.”\n\nStone\n\nAssociated with:\n\n- Earth\n- Minerals\n- Vibration\n- Structural stability\n\nSome Stone dragons may sense movement through terrain or interact with geological structures.\n\nMist\n\nAssociated with:\n\n- Water vapor\n- Moisture\n- Cloud\n- Concealment\n\nSkilled Mist dragons may obscure large areas.\n\nClass II — Uncommon\n\nStorm\n\nAssociated with:\n\n- Wind\n- Atmospheric pressure\n- Lightning\n- Atmospheric energy\n\nVerdant\n\nAssociated with:\n\n- Plant life\n- Growth\n- Ecological awareness\n\nFrost\n\nAssociated with:\n\n- Cold\n- Ice\n- Heat extraction\n\nFrequency may vary geographically, with Frost more common in northern populations.\n\nClass III — Rare\n\nIron\n\nAssociated with:\n\n- Metal\n- Magnetism\n- Structural resonance\n\nDoes not grant unlimited control over all metal.\n\nNight\n\nAssociated with:\n\n- Darkness\n- Concealment\n- Sensory suppression\n\nNight affinity is not inherently sinister and is not exclusive to Varrinth.\n\nSun\n\nAssociated with:\n\n- Light\n- Heat\n- Radiance\n- Certain forms of magical purification\n\nSun affinity is not inherently benevolent.\n\nClass IV — Exceptional\n\nVeil\n\nAssociated with:\n\n- Spirits\n- Dreams\n- Memory echoes\n- Thin places\n- Veil disturbances\n\nVeil dragons do not automatically understand death, the afterlife, or the Deep.\n\nVoid — Proposed\n\nAssociated with:\n\n- Magical dampening\n- Absence\n- Enchantment disruption\n- Magically quiet spaces\n\n“Void” is a human scholarly term and may not reflect dragon terminology.\n\nEcho — Proposed\n\nAssociated with:\n\n- Sound\n- Vibration\n- Magical resonance\n- Possible impressions left by past events\n\nClass V — Singular / Anomalous\n\nPossible manifestations include:\n\nTime — Proposed\n\n- Would affect temporal perception, reaction, sequence, or magical timing.\n- Does not permit unrestricted time travel.\n\nGravity — Proposed\n\n- May affect weight or gravitational interaction.\n\nDream — Proposed\n\n- May involve deliberate interaction with shared dreams.\n- Could overlap with Veil phenomena.\n\nThese remain provisional rather than fully established affinities.\n\nUnclassified\n\nUsed when:\n\n- A dragon refuses examination.\n- Affinity cannot be identified.\n- Several equally dominant manifestations occur.\n- The dragon displays contradictory magical behavior.\n- Existing taxonomy simply does not work.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "Flight candidates study dragon law, Accord law, aerial tactics, meteorology, navigation, dragon anatomy, emergency medicine, diplomacy, survival, mountain operations, and military strategy. Riders are expected to function as military officers and diplomatic partners to sovereign beings.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The academy & Accord"
   },
   {
-    "id": "aerie-12",
-    "name": "Dragon Rarity — Frequency Is Not Strength",
+    "id": "caer-dragonkeepers",
+    "name": "Dragonkeepers",
     "category": "Aerie & Dragons",
-    "body": "The Aerie's rarity system measures how frequently a lineage or affinity occurs among known dragon populations. It is a scholarly classification, not a measurement of magical power, combat capability, value, or social importance.\n\nClass I — Common\n\nFrequently encountered among known populations.\n\nClass II — Uncommon\n\nRegularly documented but noticeably less numerous.\n\nClass III — Rare\n\nSmall, scattered, or geographically limited known populations.\n\nClass IV — Exceptional\n\nVery few documented examples.\n\nClass V — Singular\n\nUnique, nearly unique, or extremely poorly documented.\n\nCurrent Lineage Classification\n\n- Crownwing — Class I\n- Cragback — Class I\n- Razorwing — Class II\n- Thornclaw — Class II\n- Vesperwing — Class III\n- Mirewyrm — Class III\n- Elderform — Class V\n\nCurrent Affinity Classification\n\n- Ember — Class I\n- Stone — Class I\n- Mist — Class I\n- Storm — Class II\n- Verdant — Class II\n- Frost — Class II\n- Iron — Class III\n- Night — Class III\n- Sun — Class III\n- Veil — Class IV\n- Void — Class IV, proposed\n- Echo — Class IV, proposed\n- Anomalous manifestations — Class V or Unclassified\n\nCore Rule\n\nRarity does not equal power.\n\nAge, size, experience, skill, affinity, physical condition, temperament, and circumstances all matter.\n\nA Class I dragon may be vastly more dangerous than a Class IV dragon.\n\nDragons also generally dislike being personally described as “rare,” because the term can sound objectifying or collectible.\n\nThe classification system is primarily scholarly and administrative language used by the Aerie.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "Dragonkeepers are non-rider specialists working alongside dragons, including healers, scholars, translators, habitat specialists, archivists, eggwardens, and legal liaisons. Dragons are assisted, not 'handled'; ownership or domestication language may be insulting.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The academy & Accord"
   },
   {
-    "id": "aerie-13",
-    "name": "Dragon Taxonomy — How the Pieces Fit Together",
+    "id": "caer-aerie-leadership-flight-faculty",
+    "name": "Aerie Leadership & Flight Faculty",
     "category": "Aerie & Dragons",
-    "body": "Human scholars separate dragon anatomy, magic, partnership, and rarity so that one trait does not become shorthand for the entire individual. This prevents dragon taxonomy from becoming a simplistic elemental classification system.\n\nLineage\n\nDescribes the dragon's physical and ecological type.\n\nAffinity\n\nDescribes the dragon's innate magical nature.\n\nConcord\n\nDescribes the voluntary magical relationship between dragon and rider.\n\nResonance\n\nDescribes the unique magical interaction created by that specific partnership.\n\nRarity\n\nDescribes documented frequency.\n\nTherefore:\n\nLineage ≠ Affinity ≠ Concord ≠ Resonance ≠ Rarity.\n\nExamples:\n\n- Vesperwing + Ember + unique Resonance\n- Cragback + Mist + unique Resonance\n- Razorwing + Stone + unique Resonance\n- Crownwing + Night + unique Resonance\n- Thornclaw + Verdant + unique Resonance\n\nLineage does not dictate affinity.\n\nAffinity does not dictate personality.\n\nRarity does not dictate power.\n\nColor does not dictate affinity.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "The Rector heads the Aerie; Deans oversee Command, Artifice, Fleet, and Flight. Flight instruction includes Masters of Accord, Dragon Studies, Aerial Doctrine, Flight, and Concord Studies plus Resonance Scholars. Dragons may voluntarily teach as Dragon Lecturers or Concord Fellows and are not subordinate academic property.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The academy & Accord"
   },
   {
-    "id": "aerie-14",
-    "name": "Dragon Culture — An Ancient Civilization Still Largely Beyond Human Understanding",
+    "id": "caer-skyfields",
+    "name": "Skyfields",
     "category": "Aerie & Dragons",
-    "body": "Dragons possess their own social structures, traditions, identities, relationships, histories, and political disagreements. Human knowledge of dragon civilization remains incomplete, particularly because dragons decide for themselves what they are willing to explain.\n\nEstablished Foundations\n\n- Dragons are people first.\n- Dragons possess individual personalities, beliefs, memories, interests, and political opinions.\n- They possess their own names and languages.\n- A dragon may decide which name humans are permitted to use.\n- Individual dragons can personally remember centuries of history.\n- Some may remember events humans and Fae know only through written records.\n- Dragons may remember noble ancestors, forgotten agreements, ancient insults, old borders, or earlier versions of political institutions.\n- Dragons possess their own concepts of territory, family, adulthood, gender, law, and magic.\n- Dragons disagree politically.\n- Some support Concord.\n- Some may reject human-dragon partnerships entirely.\n- Human taxonomy does not necessarily match dragon taxonomy.\n- Cross-lineage reproduction occurs.\n- Dragon genealogy does not divide neatly into six categories.\n\nStill to Develop\n\n- Family structures\n- Clutches and kinship\n- Reproduction\n- Courtship\n- Languages\n- Naming traditions\n- Political organization\n- Property\n- Wealth\n- Crime and punishment\n- Religion\n- Relationship with the Veil\n- Death and funerary practices\n- Internal opinions of the Accord\n- Relations with High Fae\n- Relations with dragons outside the Crownspines",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "The Skyfields are large restricted aerial training grounds above the Aerie, including cliffs, terraces, launch areas, open fields, and emergency landing zones. They host first flights, aerial drills, formation practice, rescue training, emergency landings, and military exercises.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The city & its people"
   },
   {
-    "id": "aerie-15",
-    "name": "Strategic Role of Dragons — Power Without an Automatic Victory",
+    "id": "caer-great-perch",
+    "name": "Great Perch",
     "category": "Aerie & Dragons",
-    "body": "Dragon partnership gives Maynerim an extraordinary military advantage, particularly in aerial defense, reconnaissance, rapid response, and specialized warfare. Dragons are nevertheless too independent, rare, specialized, and strategically limited to replace conventional armies or make Maynerim unbeatable.\n\nA. Military Importance\n\n- Dragon riders contribute significantly to Maynerim's aerial superiority.\n- Help explain why the smaller mortal realm remains difficult to invade.\n- Particularly valuable for reconnaissance, interception, rapid response, rescue, and specialized combat.\n\nB. Limitations\n\nDragons cannot automatically:\n\n- Occupy cities\n- Hold streets\n- Administer conquered territory\n- Replace infantry\n- Conduct every investigation\n- Maintain ordinary supply chains\n- Solve every magical threat\n- Defeat every creature\n- Ignore political consequences\n\nC. Active Rider Population\n\n- Exact number of active bonded pairs has not been finalized.\n- Earlier estimate of approximately 60–100 active pairs remains exploratory rather than locked canon.\n\nD. Caer Avar's Strategic Importance\n\nCaer Avar protects:\n\n- A major Ironspine passage\n- Important trade routes\n- Dragon diplomatic access\n- The Aerie\n- Mineral resources\n- Access to the region surrounding the Hearth Below\n\nIts defenses include:\n\n- Fortress walls\n- Mountain redoubts\n- Engineered choke points\n- Ward networks\n- Anti-siege defenses\n- Aerial defenses\n\nDragons are not formally part of the city's defensive infrastructure merely because they live nearby.\n\nAny invading strategist must nevertheless account for the possibility that attacking Caer Avar will provoke dragon intervention.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "The Great Perch is a massive mountainside human-dragon amphitheater used for diplomacy, Accord councils, ceremonies, memorials, rider recognition, and joint hearings. Humans use lower galleries and dragons use huge stone terraces. It deliberately has no highest seat; even sovereigns are not symbolically placed above dragon representatives.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The city & its people"
   },
   {
-    "id": "aerie-16",
-    "name": "Aerie Culture — Life Around Dragons",
+    "id": "caer-lower-warrens",
+    "name": "Lower Warrens",
     "category": "Aerie & Dragons",
-    "body": "Centuries of living and training beside dragons have produced their own customs, stereotypes, jokes, professions, and assumptions among the people of Caer Avar and the Aerie.\n\nA. Rider Stereotypes\n\nCrownwing riders:\n\n- Stereotyped as believing they are the protagonist of every military operation.\n\nRazorwing riders:\n\n- Stereotyped as physically incapable of understanding the phrase “reasonable speed.”\n\nCragback riders:\n\n- Stereotyped as carrying backup equipment for their backup equipment.\n\nVesperwing riders:\n\n- Stereotyped as appearing silently behind people and being confused when everyone screams.\n\nMirewyrm riders:\n\n- Stereotyped as perpetually damp.\n\nThornclaw riders:\n\n- Stereotyped as having forgotten that roads exist.\n\nThese are cultural jokes, not actual personality rules.\n\nB. Dragon Souvenirs\n\n- Dragon imagery is common throughout Caer Avar.\n- Tourists, military families, merchants, and cadets buy carved dragons and other Aerie merchandise.\n- Some dragons themselves find these objects amusing.\n- Some collect them.\n\nC. Human Scholarship\n\n- Dragons frequently find human attempts to classify them amusing or irritating.\n- Human family trees often fail to reflect how dragons understand their own ancestry.\n- A dragon may provide genealogical information in terms humans find profoundly unhelpful.\n- Dragons retain the right to refuse scholarly examination.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "The Lower Warrens are among Caer Avar's oldest civilian districts: stone buildings, narrow streets, ancient drainage channels, taverns, steep stairways, and an unreasonable quantity of stairs.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The city & its people"
   },
   {
-    "id": "aerie-17",
-    "name": "Core Dragon Canon — The Rules Everything Else Must Respect",
+    "id": "caer-high-market",
+    "name": "High Market",
     "category": "Aerie & Dragons",
-    "body": "These principles form the foundation of dragon lore in Elyndor. Future characters, institutions, history, magic, plots, and lore should remain consistent with them unless a story is deliberately exploring an exception.\n\n1. Dragons are people.\n2. Dragons are sovereign.\n3. Dragons are not domesticated.\n4. Dragons existed in the Crownspines before Maynerim.\n5. The Aerie cannot assign a dragon.\n6. A dragon chooses whether to approach a potential rider.\n7. Concord requires mutual consent.\n8. Dragon chooses human; human chooses dragon.\n9. Concord does not erase autonomy.\n10. Rarity does not equal power.\n11. Lineage does not determine affinity.\n12. Affinity does not determine personality.\n13. Color does not determine magic.\n14. Riders do not simply inherit their dragon's affinity.\n15. Resonance belongs to the partnership.\n16. Every dragon should be treated as an individual before being treated as a member of a lineage or affinity.\n17. Dragon partnership strengthens Maynerim without making Maynerim unbeatable.\n18. The Calling is dangerous because dragon flight and the Crownspines are dangerous, not because the Aerie deliberately wastes lives.\n19. Not being chosen is not considered a moral failure.\n20. The Accord represents cooperation rather than ownership.\n21. Dragon territory remains dragon territory even when dragons cooperate militarily with Maynerim.\n22. Human taxonomy is useful but imperfect.\n23. Dragons possess histories, cultures, politics, and disagreements independent of humanity.\n24. The Aerie exists because humans and dragons learned to cooperate, not because humans conquered dragons.\n25. Maynerim did not tame dragons. It learned how to live beside them.",
-    "source": "Caer Avar, the Aerie & Dragons · 4 October 2026"
+    "body": "The High Market is Caer Avar's main commercial district, trading mountain herbs, metalwork, leather, climbing and flight equipment, food, alchemical supplies, art, and Aerie merchandise. Dragon-themed souvenirs are popular; some actual dragons collect them.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The city & its people"
+  },
+  {
+    "id": "caer-ash-houses",
+    "name": "Ash Houses",
+    "category": "Aerie & Dragons",
+    "body": "The Ash Houses district centers on smithing, alchemy, artificing, and military engineering. Shed dragon material may enter legal trade only when naturally shed and voluntarily given. Dragon graves, eggs, living tissue, stolen scales, bones, and protected materials are heavily regulated; trafficking is a severe magical and diplomatic crime.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The city & its people"
+  },
+  {
+    "id": "caer-avar-healers-house",
+    "name": "Avar Healers' House",
+    "category": "Aerie & Dragons",
+    "body": "Avar Healers' House treats humanoids and dragons with species-appropriate specialists rather than assuming human or Fae medicine applies to dragons. Human and Fae healers may collaborate with dragons possessing medical knowledge.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The city & its people"
+  },
+  {
+    "id": "caer-dragon-jurisdiction",
+    "name": "Dragon Jurisdiction",
+    "category": "Aerie & Dragons",
+    "body": "Jurisdiction follows territory: Maynerim territory uses Maynerim law; dragon territory follows dragon sovereignty; designated shared territory follows Accord law. Upper Crownspines are recognized dragon territory and human access is governed by agreement and permission.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The academy & Accord"
+  },
+  {
+    "id": "caer-the-calling",
+    "name": "The Calling",
+    "category": "Aerie & Dragons",
+    "body": "The Calling is the Aerie's voluntary selection period for prospective riders. Eligible candidates enter dragon territory after required academic, physical, military, medical, dragon-law, and Accord-law preparation. No dragon must choose anyone and no candidate is entitled to selection. Withdrawal beforehand is not dishonorable.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The Calling & Concord"
+  },
+  {
+    "id": "caer-calling-opening-ceremony",
+    "name": "Calling — Opening Ceremony",
+    "category": "Aerie & Dragons",
+    "body": "At the Great Perch, Calling candidates enter without ceremonial armor, family heraldry, House insignia, medals, or inherited-status markers. Names are read without titles. A dragon representative asks, 'Do you enter freely?' and the candidate answers, 'I enter freely.' Magical compulsion invalidates participation.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The Calling & Concord"
+  },
+  {
+    "id": "caer-the-high-reach",
+    "name": "The High Reach",
+    "category": "Aerie & Dragons",
+    "body": "The High Reach is designated Calling territory in the lower Crownspines. Current proposed duration is three days. Candidates receive food, water, medical supplies, climbing equipment, and weather protection. There is no standardized route or obstacle course; the central instruction is to go where they believe they should go.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The Calling & Concord"
+  },
+  {
+    "id": "caer-calling-dragon-encounters",
+    "name": "Calling — Dragon Encounters",
+    "category": "Aerie & Dragons",
+    "body": "During the Calling, dragons may ignore, observe, speak to, follow, challenge, obstruct, question, or test candidates. No standardized dragon test exists; each dragon judges what matters to that individual. Candidates may not know whether behavior is a deliberate test or simply normal dragon behavior.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The Calling & Concord"
+  },
+  {
+    "id": "caer-calling-candidate-conduct",
+    "name": "Calling — Candidate Conduct",
+    "category": "Aerie & Dragons",
+    "body": "Murder and sabotage are prohibited during the Calling. There is no fixed number of available partnerships, so eliminating another candidate provides no legitimate advantage. The Calling is dangerous because dragon flight and the Crownspines are dangerous, not because the Aerie deliberately wastes lives.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The Calling & Concord"
+  },
+  {
+    "id": "caer-the-unchosen",
+    "name": "The Unchosen",
+    "category": "Aerie & Dragons",
+    "body": "Not being chosen is not a moral or personal failure. An unchosen candidate may attempt one later Calling, transfer to Command, Artifice, or Fleet, become a Dragonkeeper, enter another military specialty, or leave the Aerie. After two Callings without selection, no further attempt is allowed.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The Calling & Concord"
+  },
+  {
+    "id": "caer-first-ascent",
+    "name": "First Ascent",
+    "category": "Aerie & Dragons",
+    "body": "First Ascent is the first flight between a dragon and chosen human and the final mutual test before Concord. The candidate mounts without normal established-rider equipment; the dragon controls the flight and may test fear and adaptation. Both retain the right to refuse Concord.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The Calling & Concord"
+  },
+  {
+    "id": "caer-first-ascent-traditional-invitation",
+    "name": "First Ascent — Traditional Invitation",
+    "category": "Aerie & Dragons",
+    "body": "Traditional First Ascent invitation: the dragon asks, 'Will you rise with me?' The candidate answers, 'If you will carry me.' The dragon answers, 'Then rise.' This precedes the first flight and does not remove either party's right to refuse Concord.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The Calling & Concord"
+  },
+  {
+    "id": "caer-concord-formation-return",
+    "name": "Concord Formation & Return",
+    "category": "Aerie & Dragons",
+    "body": "To form Concord, the dragon deliberately opens magical connection and the human deliberately accepts. Early Concord may be presence, direction, emotional pressure, and crude intentional impressions rather than effortless telepathy. New pairs return to Caer Avar by air, land at the Great Perch, exchange public names, and are formally recorded.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The Calling & Concord"
+  },
+  {
+    "id": "caer-unscheduled-choosing",
+    "name": "Unscheduled Choosing",
+    "category": "Aerie & Dragons",
+    "body": "Dragons are not bureaucratically bound to the Calling. Rarely, a dragon may choose another Aerie student, soldier, Dragonkeeper, healer, civilian, or other person. A consensual Concord cannot simply be invalidated because the dragon ignored human procedure.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The Calling & Concord"
+  },
+  {
+    "id": "caer-rider-progression",
+    "name": "Rider Progression",
+    "category": "Aerie & Dragons",
+    "body": "Status progression is Flight Candidate → Called → Rider. A Flight Candidate has no Concord; Called means newly Concorded and still learning communication, flight coordination, Concord management, and Resonance safety; Rider means fully qualified after competency standards. Concord alone does not make someone a trained military rider.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The Calling & Concord"
+  },
+  {
+    "id": "caer-rider-ranks-units",
+    "name": "Rider Ranks & Units",
+    "category": "Aerie & Dragons",
+    "body": "Operational rider ranks: Wingrider, Senior Wingrider, Flight Lead, Wing Captain, Wing Commander, High Wing Commander; Sky Marshal is a rare temporary or wartime appointment. Units: Pair = one dragon and rider; Flight = usually 3–6 pairs; Wing = several Flights; Aerie Group = multiple Wings.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The academy & Accord"
+  },
+  {
+    "id": "caer-rider-specialist-roles",
+    "name": "Rider Specialist Roles",
+    "category": "Aerie & Dragons",
+    "body": "Specialist roles include Pathfinder Rider for reconnaissance and difficult-route scouting; Rescue Rider for rescue and evacuation; Breaker Rider for heavy combat and siege support; Veilwatch Rider for Veil and anomalous threats; Courier Rider for rapid communication; Accord Liaison Rider for human-dragon military diplomacy.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The academy & Accord"
+  },
+  {
+    "id": "caer-dragon-age-lifespan",
+    "name": "Dragon Age & Lifespan",
+    "category": "Aerie & Dragons",
+    "body": "Human scholarly age categories: Hatchling 0–15; Juvenile 15–40; Young 40–100; Mature 100–400; Elder 400–800; Ancient 800+. These may not match dragon concepts. Some confirmed dragons exceed 1,200 years; stories beyond 2,000 are unverified. Juveniles do not Concord.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-sex-gender-color",
+    "name": "Dragon Sex, Gender & Color",
+    "category": "Aerie & Dragons",
+    "body": "Dragon sex does not determine size, affinity, combat ability, social status, or likelihood of Concord. Dragon gender concepts may not map neatly to human/Fae terms; dragons state preferred terms in human languages. Scale color and pattern do not determine affinity, temperament, morality, lineage, or strength.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-lineage-crownwing",
+    "name": "Dragon Lineage — Crownwing",
+    "category": "Aerie & Dragons",
+    "body": "Class I/common. Usually 60–90 ft, four-legged, enormous-winged, long-necked, often horned or crown-ridged. Powerful high-altitude, long-distance soarers suited to reconnaissance, strategic aerial combat, patrol, command, and mountain/open-sky operations.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-lineage-cragback",
+    "name": "Dragon Lineage — Cragback",
+    "category": "Aerie & Dragons",
+    "body": "Class I/common. Usually 55–80 ft, massive and heavily built with broad wings, powerful legs, armored scales, and thick tails. Slower but stable and resilient; excels in heavy aerial combat, siege operations, evacuation, troop protection, and heavy loads.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-lineage-razorwing",
+    "name": "Dragon Lineage — Razorwing",
+    "category": "Aerie & Dragons",
+    "body": "Class II/uncommon. Usually 35–55 ft, lean with narrow swept wings and long balancing tails. Fastest sustained flyers among recognized lineages; excels at diving, pursuit, rapid climbing, interception, evasion, scouting, and rapid response.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-lineage-thornclaw",
+    "name": "Dragon Lineage — Thornclaw",
+    "category": "Aerie & Dragons",
+    "body": "Class II/uncommon. Usually 30–50 ft, four-legged, flexible, smaller-winged, and exceptionally clawed. Capable flyers but strongest at low flight, gliding, climbing, running, and broken terrain; suited to tracking, rescue, border patrol, wilderness, and anti-monster work.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-lineage-vesperwing",
+    "name": "Dragon Lineage — Vesperwing",
+    "category": "Aerie & Dragons",
+    "body": "Class III/rare. Usually 40–65 ft, primarily crepuscular/nocturnal with broad flexible wings, large eyes, sensitive hearing, and quiet scale formations. Excels at night flight, forest maneuvering, low-visibility navigation, silent approach, reconnaissance, rescue, and magical-threat detection.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-lineage-mirewyrm",
+    "name": "Dragon Lineage — Mirewyrm",
+    "category": "Aerie & Dragons",
+    "body": "Class III/rare. Usually 45–75 ft, semi-aquatic with serpentine body, broad tail, webbed claws, smaller wings, and smooth scales. Unexceptional flyers but extraordinary swimmers; suited to river patrol, naval operations, coastal defense, underwater recovery, rescue, and ship escort.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-lineage-elderform",
+    "name": "Dragon Lineage — Elderform",
+    "category": "Aerie & Dragons",
+    "body": "Class V/singular and not technically a seventh lineage. Describes extremely old or morphologically unusual dragons outside modern categories. May combine lineage traits or possess structures absent from modern dragons. Only a handful may exist; Elderform does not automatically mean stronger.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-cross-lineage-dragon-ancestry",
+    "name": "Cross-Lineage Dragon Ancestry",
+    "category": "Aerie & Dragons",
+    "body": "Dragon lineages can reproduce with one another. Offspring often resemble one parental lineage more strongly while retaining traits from other ancestry. Dragon genealogy therefore does not divide cleanly into human taxonomic categories.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-affinity-ember",
+    "name": "Dragon Affinity — Ember",
+    "category": "Aerie & Dragons",
+    "body": "Class I/common affinity associated with heat, flame, combustion, and thermal effects. Ember does not simply mean 'breathes fire.'",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-affinity-stone",
+    "name": "Dragon Affinity — Stone",
+    "category": "Aerie & Dragons",
+    "body": "Class I/common affinity associated with earth, minerals, vibration, and structural stability. Some Stone dragons may sense movement through terrain or interact with geological structures.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-affinity-mist",
+    "name": "Dragon Affinity — Mist",
+    "category": "Aerie & Dragons",
+    "body": "Class I/common affinity associated with water vapor, moisture, cloud, and concealment. Skilled Mist dragons may obscure large areas.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-affinity-storm",
+    "name": "Dragon Affinity — Storm",
+    "category": "Aerie & Dragons",
+    "body": "Class II/uncommon affinity associated with wind, atmospheric pressure, lightning, and atmospheric energy.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-affinity-verdant",
+    "name": "Dragon Affinity — Verdant",
+    "category": "Aerie & Dragons",
+    "body": "Class II/uncommon affinity associated with plant life, growth, and ecological awareness.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-affinity-frost",
+    "name": "Dragon Affinity — Frost",
+    "category": "Aerie & Dragons",
+    "body": "Class II/uncommon affinity associated with cold, ice, and heat extraction; frequency may vary geographically.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-affinity-iron",
+    "name": "Dragon Affinity — Iron",
+    "category": "Aerie & Dragons",
+    "body": "Class III/rare affinity associated with metal, magnetism, and structural resonance. It does not grant unlimited control over all metal.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-affinity-night",
+    "name": "Dragon Affinity — Night",
+    "category": "Aerie & Dragons",
+    "body": "Class III/rare affinity associated with darkness, concealment, and sensory suppression. Night is not inherently sinister.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-affinity-sun",
+    "name": "Dragon Affinity — Sun",
+    "category": "Aerie & Dragons",
+    "body": "Class III/rare affinity associated with light, heat, radiance, and some magical purification. Sun is not inherently benevolent.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-affinity-veil",
+    "name": "Dragon Affinity — Veil",
+    "category": "Aerie & Dragons",
+    "body": "Class IV/exceptional affinity associated with spirits, dreams, memory echoes, thin places, and Veil disturbances. Veil dragons do not automatically understand death, the afterlife, or the Deep.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-unclassified-dragon-affinity",
+    "name": "Unclassified Dragon Affinity",
+    "category": "Aerie & Dragons",
+    "body": "Unclassified is used when a dragon refuses examination, affinity cannot be identified, several equally dominant manifestations occur, behavior is contradictory, or existing taxonomy simply fails. Human classification is administrative scholarship, not authority over dragon identity.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-dragon-culture",
+    "name": "Dragon Culture",
+    "category": "Aerie & Dragons",
+    "body": "Dragons possess individual personalities, beliefs, memories, interests, political opinions, names, languages, and their own concepts of territory, family, adulthood, gender, law, and magic. They may remember centuries of history and disagree politically, including over Concord. Human taxonomy may not match dragon self-understanding.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-crownspine-moot",
+    "name": "Crownspine Moot",
+    "category": "Aerie & Dragons",
+    "body": "The Crownspine Moot is a voluntary regional dragon gathering called when issues affect multiple dragons or territories. Dragon politics are decentralized: there is no universal dragon monarch or permanent ruler. Influence may arise from age, territory, kinship, ancestry, reputation, memory, magical knowledge, military experience, diplomacy, or relevant expertise.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-aerie-rider-stereotypes",
+    "name": "Aerie Rider Stereotypes",
+    "category": "Aerie & Dragons",
+    "body": "Aerie jokes stereotype Crownwing riders as protagonists, Razorwing riders as speed-addicted, Cragback riders as overprepared, Vesperwing riders as silently startling people, Mirewyrm riders as perpetually damp, and Thornclaw riders as forgetting roads exist. These are cultural jokes, never personality rules.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Dragon lore"
+  },
+  {
+    "id": "caer-caer-avar-strategic-importance",
+    "name": "Caer Avar Strategic Importance",
+    "category": "Aerie & Dragons",
+    "body": "Caer Avar protects a major Ironspine passage, trade routes, dragon diplomatic access, the Aerie, mineral resources. Defenses include walls, redoubts, choke points, wards, anti-siege systems, and aerial defenses. Nearby dragons are not automatically city defenses, though attackers must consider possible intervention.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "The city & its people"
+  },
+  {
+    "id": "caer-ilyra-solren",
+    "name": "Ilyra Solren",
+    "category": "Aerie & Dragons",
+    "body": "Ilyra Solren, 27, is a second-year Caer Avar rider from Maynerim bonded to Draevra. A practical wardwright and structural artificer from an engineering family, she values competence and integrity over status. Observant, pragmatic, dryly funny, selective, and difficult to charm, she tends to treat emotional pain like structural damage: something to fix, reinforce, or remove rather than simply sit beside.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-draevra",
+    "name": "Draevra",
+    "category": "Aerie & Dragons",
+    "body": "Draevra is Ilyra Solren's female Stone-affinity dragon: massive, fortress-like, iron-gray with bronze undertones, amber-gold eyes, and one broken horn. Patient, severe, and intelligent, she dislikes bravado and riders who treat dragons as weapons or status symbols. Her affection is quiet: making room, blocking wind, lowering her head, or standing close. She chose Ilyra because Ilyra understands weight.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-ilyra-draevra",
+    "name": "Ilyra & Draevra",
+    "category": "Aerie & Dragons",
+    "body": "During first-year selection, Ilyra noticed a retaining wall failing beneath a crowd and reinforced its damaged ward lattice to buy seconds. Draevra landed and braced the wall until everyone escaped, then let it fall. Their bond centers on judgment, restraint, endurance, and knowing what can be reinforced, what must be abandoned, and what is worth standing beneath anyway. Draevra's intimate warning: “Do not stand beneath what I cannot hold.”",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-fracture-sight",
+    "name": "Fracture Sight",
+    "category": "Aerie & Dragons",
+    "body": "Ilyra's Resonance reveals structural weaknesses in physical and magical systems: failing wards, stress points, unstable barriers, weak joints, load failures, and accumulating pressure. Seeing a weakness does not grant the means to exploit it, and it works poorly on living bodies. Overuse causes migraines, depth distortion, and phantom fractures across stable surfaces; at extreme exhaustion, everything looks breakable.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-dacian-rathen",
+    "name": "Dacian Rathen",
+    "category": "Aerie & Dragons",
+    "body": "Dacian Rathen, 28, is a second-year Caer Avar rider from Maynerim bonded to Veyrath. Tall, powerful, charismatic, sexually confident, competitive, observant, and excellent under pressure, he flirts deliberately and has a reputation for casual affairs. He remembers small details and cheats at casual cards. When serious attachment activates his fear of loss, protectiveness can become controlling; his growth requires naming fear and respecting others' choices.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-veyrath",
+    "name": "Veyrath",
+    "category": "Aerie & Dragons",
+    "body": "Veyrath is Dacian Rathen's male Night-affinity dragon: massive, long, predatory, black-violet, amber-gold eyed, scar-winged, and unnervingly quiet. Patient, severe, restrained, and aggressively unimpressed, he sees through Dacian's charm and recognizes his fear, jealousy, anger, and grief early. Nightfold suppresses his visual presence in darkness or low light without true invisibility.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-dacian-veyrath",
+    "name": "Dacian & Veyrath",
+    "category": "Aerie & Dragons",
+    "body": "Veyrath chose Dacian after Dacian caught a panicking candidate slipping near a cliffside launch platform. Dacian's hands shook afterward, but he laughed. Veyrath observed, “You disguise fear poorly.” Dacian answered, “You noticed me anyway.” Their bond centers on fear, motion, and survival.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-dacian-s-shadow-resonance",
+    "name": "Dacian's Shadow Resonance",
+    "category": "Aerie & Dragons",
+    "body": "Through Concord with Veyrath, Dacian's natural shadow affinity developed into a Resonance that gives existing shadows temporary substance. He can restrain limbs, brace structures, obscure movement, dampen sound, form brief defenses, and conceal magical presence. He cannot create darkness from nothing; bright direct light weakens control. His shadows may betray anger, protectiveness, or jealousy before he admits those emotions.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-calista-daine",
+    "name": "Calista Daine",
+    "category": "Aerie & Dragons",
+    "body": "Calista Daine, 28, is a second-year Caer Avar rider from Maynerim bonded to Rhazira. Magnetic, impulsive, competitive, theatrical, funny, and emotionally intense, she loves risk and hates backing down. Her central flaw is escalation: jealousy becomes confrontation, fear becomes anger, and hurt becomes accusation. She can be vicious when furious and expects apologies to repair damage too quickly. She is openly possessive and jealous rather than subtly manipulative.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-rhazira",
+    "name": "Rhazira",
+    "category": "Aerie & Dragons",
+    "body": "Rhazira is Calista Daine's female Storm-affinity dragon: long-winged, fast, athletic, dark copper-brown with burnished red undertones, black-red wing membranes, gold-green eyes, and one outward-curving horn. Proud, volatile, thrill-seeking, and brutally honest, she loves difficult weather and dangerous maneuvers. She matches Calista's intensity but refuses to let Calista disguise jealousy as righteousness or fear as anger.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-calista-rhazira",
+    "name": "Calista & Rhazira",
+    "category": "Aerie & Dragons",
+    "body": "During first-year selection, a violent storm drove most candidates to cover. Calista stayed outside. Rhazira descended deliberately close to move her; Calista shouted, “Is that supposed to scare me?” Rhazira replied, “No. That was supposed to move you.” Calista told her to try harder, and Rhazira chose her. Their bond is about impact versus control. Rhazira's lesson: “You keep mistaking impact for victory.”",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-pressurebreak",
+    "name": "Pressurebreak",
+    "category": "Aerie & Dragons",
+    "body": "Calista's Resonance manipulates localized air pressure in short bursts. She can knock opponents off balance, cushion landings, enhance leaps or brief movement, destabilize projectiles, create short compressed-air barriers, and improve flight maneuverability. Overuse causes vertigo, ringing ears, nosebleeds, burst capillaries, migraines, and temporary hearing loss. Emotional instability makes it stronger but less precise.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-dacian-calista",
+    "name": "Dacian & Calista",
+    "category": "Aerie & Dragons",
+    "body": "Dacian and Calista were passionate, chaotic ex-lovers whose confidence, competitiveness, flirtation, risk appetite, and social energy matched explosively. They repeatedly broke up and reconciled: Dacian withdrew when controlled; Calista escalated when abandoned.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-ilyra-calista",
+    "name": "Ilyra & Calista",
+    "category": "Aerie & Dragons",
+    "body": "Ilyra Solren and Calista Daine intensely dislike each other and make no effort to hide it. Calista sees Ilyra as judgmental, humorless, and infuriatingly difficult to provoke. Ilyra finds Calista exhausting. Their hostility is direct rather than covert.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-gunnar-caulus",
+    "name": "Gunnar Caulus",
+    "category": "Aerie & Dragons",
+    "body": "Gunnar Caulus, 29, is a first-year Flight student from Maynerim. Dry, disciplined, practical, responsible, and extremely difficult to rattle, he excels at planning, emergency response, endurance, observation, and logistics. He entered the Aerie after already building an adult life. Old burn scars mark one forearm from returning to a fire to rescue someone. He recognizes others' limits while stubbornly denying his own. He has not undergone the Calling and has no dragon.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-sorrel-caith",
+    "name": "Sorrel Caith",
+    "category": "Aerie & Dragons",
+    "body": "Sorrel Caith, 27, is a Flight student from Maynerim specializing in field medicine and alchemical restoration. Charming, irreverent, nosy, social, shameless, and difficult to embarrass, she uses humor to calm frightened people and becomes frighteningly competent when someone is hurt. She jokes when afraid, avoids vulnerability, and measures too much of her worth by how useful and needed she can make herself. She has not yet formed Concord.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-brenn-varrow",
+    "name": "Brenn Varrow",
+    "category": "Aerie & Dragons",
+    "body": "Brenn Varrow is a ~230-year-old Thorn Fae second-year dragon rider, 6′11″. Big-hearted, blunt, loyal, affectionate, and gloriously himbo, he struggles with academics, politics, subtlety, and noticing flirtation but excels at survival, combat, rescue, terrain, instinct, and practical problem-solving. He is bonded to Vhassara and is firmly part of Dacian and Ilyra's established second-year friendship circle.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
+  },
+  {
+    "id": "caer-dacian-ilyra-brenn",
+    "name": "Dacian, Ilyra & Brenn",
+    "category": "Aerie & Dragons",
+    "body": "Dacian, Ilyra, and Brenn are an established second-year friend group shaped by surviving First Year together. They train, eat, argue, joke, and know one another's habits, injuries, limits, dragons, and old trouble. Dacian and Brenn have brother-coded banter: Dacian teases relentlessly; Brenn often takes him literally, then occasionally lands a devastatingly perceptive observation. Ilyra trusts Brenn's practical instincts and rescue judgment; Brenn respects her expertise and usually listens when she says something is unsafe. Ilyra and Dacian remain deeply platonic and sibling-like. The trio has shorthand, easy familiarity, recreational insults, and genuine loyalty. They spend time together and have lives of their own.",
+    "source": "Caer Avar lorebook · supplied 4 October 2026",
+    "collection": "caer-avar",
+    "group": "Riders & their dragons"
   }
 ];

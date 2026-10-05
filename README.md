@@ -36,3 +36,10 @@ Elyndor lore belongs to its creators. No license to reuse the lore or character 
 The homepage has a compact Faces of Elyndor link; `#characters` opens the dedicated portrait hall. Each character media record has a `chatUrl` pointing to the supplied DreamJourney creation. Chat Here appears both in the gallery and the lore reader and opens a new tab.
 
 The small footer seal opens `#secrets`; typing THORNS outside a text field is an alternate entrance. The Sealed Archive has an outer spoiler warning and individual expandable records, following the two-layer Foxglove pattern. Add spoiler records to `secrets.js` as `{id, title, body}`. The room starts empty for deliberate author selection. Secret records are excluded from normal archive search. This is a public Easter egg, not authentication; source and content remain publicly accessible. Do not store private data here.
+
+
+## Caer Avar update · 4 October 2026
+
+`#caer-avar` opens the dedicated illustrated chapter. The supplied current Caer Avar JSON replaces the earlier 18-entry outline; legacy `aerie-0` through `aerie-17` links resolve to current subject records. Public records retain provisional wording and remove DJAI trigger underscores. Hidden records remain unpublished; Brenn has a public portrait/profile with hidden parentage omitted. Related public descriptions omit references revealing Tavian's hidden manifestation. No new secret-room files were added. The uploaded Caitlin portrait awaits identity confirmation before publication; it is not assumed to depict Calista.
+
+Seven new artworks preserve their full composition: academy map, Brenn, Dacian, Ilyra, Gunnar, Sorrel, and the trio. Existing character chat links are retained; no chat addresses were supplied for the new characters.
