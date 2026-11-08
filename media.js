@@ -1,6 +1,18 @@
 // Add artwork here. entryId must match a permanent ID in lore.js.
 // Keep full images intact; galleries use contain rather than cropping portraits.
 window.ELYNDOR_MEDIA = [
+{
+  "id": "elyndor-atlas",
+  "entryId": "elyndor",
+  "kind": "location",
+  "title": "Elyndor · The Dragon Territories",
+  "subtitle": "The Great Courts, mortal lands & Iskareth",
+  "src": "images/elyndor-atlas.webp",
+  "width": 1536,
+  "height": 1024,
+  "alt": "Ornate map of Elyndor: the Court of Thorns to the west, Varrinth to the east, Maynerim below the Ironspines, Caer Avar beneath the Crownspines, and Iskareth on an island off the southeastern coast.",
+  "caption": "Elyndor · The Dragon Territories · Updated world atlas, November 2026"
+},
   {
     id: 'rhaevor-portrait', entryId: 'rhaevor-veyr', chatUrl: 'https://dreamjourneyai.com/app/creation/b1eae66f-8f64-44dd-a695-67c1697bb8c5', kind: 'character',
     title: 'Rhaevor Veyr', subtitle: 'High Lord of Varrinth',

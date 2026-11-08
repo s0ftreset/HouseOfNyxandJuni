@@ -1,4 +1,3 @@
-// Spoiler records stay outside ordinary archive search and galleries.
 window.ELYNDOR_SECRETS = [
   {
     "id": "gunnar-dragon-spoiler",
@@ -205,6 +204,48 @@ window.ELYNDOR_SECRETS = [
       {
         "title": "11. The two sealed documents",
         "body": "And then there's the one that would absolutely annihilate Vaelric:\n\nValandir has quietly prepared contingency plans for Vaelric's death for centuries.\n\nNot succession plans. Those are normal.\n\nPlans for himself afterward.\n\nWho takes command while he's grieving. Who keeps him away from immediate political decisions. Which duties transfer to Ilyra. Who tells Seralyth. Who secures Vaelric's private correspondence. Who prevents Court factions from exploiting the first seventy-two hours.\n\nBecause Valandir knows himself well enough to understand that if Vaelric dies, the War Hound should not be trusted to immediately become the most powerful military decision-maker in the Court of Thorns.\n\nIlyra has the sealed instructions.\n\nShe's never opened them.\n\nThe envelope says:\n\n“IF VAELRIC DIES, DO NOT LET ME COMMAND.”\n\nAnd somewhere in Vaelric's private archive is another sealed document:\n\n“IF VALANDIR DIES, DO NOT LET ME RULE ALONE.”",
+        "collapsible": true
+      }
+    ]
+  },
+  {
+    "id": "iskareth-household-secrets",
+    "title": "Iskareth · The Gilded Household",
+    "body": "Private histories and possible mysteries · Outcomes remain unsettled.",
+    "sections": [
+      {
+        "title": "Celestine Arvienne",
+        "body": "Privately refused a foreign marriage offer hoping Luceryn would marry her.",
+        "collapsible": true
+      },
+      {
+        "title": "Rosalinde Feroux",
+        "body": "Secretly corresponds with a former lover.",
+        "collapsible": true
+      },
+      {
+        "title": "Sabine Duvrane",
+        "body": "Exploring an independent diplomatic career.",
+        "collapsible": true
+      },
+      {
+        "title": "Liora Edevane",
+        "body": "Knows why he once considered and abandoned marrying Celestine.",
+        "collapsible": true
+      },
+      {
+        "title": "Odette Viremont",
+        "body": "Pregnancy is NOT confirmed; she permits speculation.",
+        "collapsible": true
+      },
+      {
+        "title": "The attendants’ private affairs",
+        "body": "Helene Ardis (312): Celestine’s exacting senior attendant; concealed a financial irregularity. Corinne Bellac (206): Rosalinde’s sociable attendant; intercepted invitations. Maelis Renn (278): Sabine’s Thorn-born attendant; receives unauthorized intelligence. Fenna Belis (354): Liora’s practical attendant; helps a junior servant leave misconduct. Eveline Soreth (174): Odette’s Varrinth-born attendant; withholds some family correspondence.",
+        "collapsible": true
+      },
+      {
+        "title": "Possible household mysteries",
+        "body": "Potential arcs: Pearl Court account discrepancies; correspondence from Varrinth about Odette’s family; illness after a Rose Pavilion gathering; Thorn diplomatic visit; Alaric’s succession petition; princess’s first festival. Culprits, causes, and outcomes are not predetermined; allegations require evidence.",
         "collapsible": true
       }
     ]

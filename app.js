@@ -2,7 +2,7 @@
 const entries = window.ELYNDOR_ENTRIES;
 const media = window.ELYNDOR_MEDIA || [];
 let currentPhotoIndex = 0, currentPhotoGroup = [];
-const categories = ['All entries', 'Characters', 'Places', 'Houses', 'Magic', 'Customs', 'Chronicles', 'Aerie & Dragons'];
+const categories = ['All entries', 'Characters', 'Places', 'Houses', 'Magic', 'Customs', 'Chronicles', 'Aerie & Dragons', 'Iskareth & Household'];
 const $ = id => document.getElementById(id);
 let category = 'All entries', query = '', sort = 'featured', page = 1, returnHash = '#archive';
 const pageSize = 12;
@@ -35,7 +35,7 @@ function renderGalleries() {
   [['character', 'character-gallery'], ['location', 'location-gallery'], ['character', 'caer-portraits'], ['location', 'caer-map']].forEach(([kind,id]) => {
     const photos = media.filter(photo => photo.kind === kind && (!id.startsWith('caer-') || photo.collection === 'caer-avar')); 
     $(id).replaceChildren(...photos.map(photo => {
-      const card = element('article', 'photo-card');
+      const card = element('article', 'photo-card' + (photo.id === 'elyndor-atlas' ? ' world-atlas-card' : ''));
       const body = element('div', 'photo-caption');
       const title = element('h3'); const link = element('a', '', photo.title); link.href = '#entry/' + photo.entryId; title.append(link);
       const lore = element('a', 'photo-lore', 'Read the lore ↗'); lore.href = link.href;

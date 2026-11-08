@@ -56,3 +56,6 @@ footer .secret-sigil{font-size:22px;color:#9e8459;border:0;padding:6px 12px}foot
 
 /* Individual court records remain closed until deliberately opened. */
 .secret-record{margin:0 20px 16px;padding:0;border:1px solid #735133;background:#211510}.secret-record>summary{padding:16px;cursor:pointer;color:#dfc290;font-family:var(--capitals);font-size:12px;line-height:1.6}.secret-record>p{padding:0 18px 20px;font-size:19px;line-height:1.75;white-space:pre-line}.secret-record[open]>summary{border-bottom:1px solid #735133;margin-bottom:18px}
+
+/* Current world atlas and the island principality. */
+.world-atlas-card{grid-column:1/-1}.world-atlas-card .photo-open img{height:auto;max-height:none}.world-atlas-card .photo-caption{padding:24px}.world-atlas-card .photo-caption h3{font-size:clamp(29px,4vw,48px)}.realm.iskareth{background:linear-gradient(140deg,#76502b66,#173e4266)}.realm-grid{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:620px){.realm-grid{grid-template-columns:1fr}}

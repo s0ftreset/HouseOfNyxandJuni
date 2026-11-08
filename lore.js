@@ -3,7 +3,7 @@ window.ELYNDOR_ENTRIES = [
     "id": "elyndor",
     "name": "Elyndor",
     "category": "Places",
-    "body": "Elyndor is a fantasy realm shaped by two great High Fae powers—the Court of Thorns and Varrinth—and the mortal territory of Maynerim. Thorns and Varrinth are political equals with distinct cultures and magical traditions, while Maynerim is home primarily to mortal peoples and those without Fae blood. Trade, diplomacy, rivalry, crime, and personal ties cross these borders; the regions are interconnected rather than isolated worlds.",
+    "body": "Elyndor is a fantasy realm shaped by two great High Fae powers—the Court of Thorns and Varrinth—and the mortal territory of Maynerim. Thorns and Varrinth are political equals with distinct cultures and magical traditions, while Maynerim is home primarily to mortal peoples and those without Fae blood. Trade, diplomacy, rivalry, crime, and personal ties cross these borders; the regions are interconnected rather than isolated worlds. Off the coast lies Iskareth, a sovereign island principality governed by House Orsenne, whose wealth rests on maritime trade and diplomacy.",
     "source": "Elyndor master lorebook · supplied 4 October 2026"
   },
   {
@@ -1286,5 +1286,166 @@ window.ELYNDOR_ENTRIES = [
     "source": "Caer Avar lorebook · supplied 4 October 2026",
     "collection": "caer-avar",
     "group": "Riders & their dragons"
+  },
+  {
+    "id": "iskareth",
+    "name": "Iskareth",
+    "body": "Iskareth is a wealthy sovereign island principality off Elyndor’s coast in Elyndor, governed by House Orsenne. Its economy centers on maritime trade and diplomacy. Architecture: white limestone, gold detailing, terraces, harbors, and gardens. Ruler: Prince Luceryn Orsenne. Palace: the Gilded Atrium.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-gilded-atrium",
+    "name": "Gilded Atrium",
+    "body": "The Gilded Atrium is House Orsenne’s coastal palace. It contains Luceryn’s quarters, the Sunward Apartments for his lawful wife, five protected consort residences, the Hall of Restoration, administrative cloisters, gardens, and formal halls. Each consort operates an independent household.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-luceryn-orsenne",
+    "name": "Luceryn Orsenne",
+    "body": "Luceryn Orsenne, 493, High Fae, 6’4”, sovereign prince of Iskareth. Bronze-olive skin, dark espresso wavy shoulder-length hair, amber-gold eyes. Charming, affectionate, witty, politically competent; avoids difficult domestic conversations, overindulges loved ones, and dislikes disappointing people. Magic: lightweaving and resonance; neither controls minds. Has five recognized consorts and two adult children. Marries his lawful wife without ending his existing relationships.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-princess-consort",
+    "name": "Princess Consort",
+    "body": "The Princess Consort is Luceryn’s incoming lawful wife. She has highest female ceremonial precedence, independent property and staff, and the Sunward Apartments. She cannot dismiss, exclude, punish, confine, demote, or strip privileges from recognized consorts.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-covenant-of-the-gilded-seal",
+    "name": "Covenant of the Gilded Seal",
+    "body": "Recognized consorts retain legally protected lifetime appointments, residences, allowances, staff, property, and authorized palace access after Luceryn’s marriage. Neither Luceryn nor the Princess Consort can unilaterally dismiss, evict, confine, demote, exclude, defund, or strip their rights, directly or indirectly. Voluntary release is permitted. Involuntary removal requires lawful grounds, evidence, an independent tribunal, and due process.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-marriage-articles",
+    "name": "Marriage Articles",
+    "body": "the Princess Consort becomes lawful Princess Consort, retains personal property, receives a protected allowance, independent staff, and private Sunward Apartments. The marriage recognizes all five existing consort appointments. Marital intimacy requires consent. Children of the marriage gain eligibility under succession law but do not automatically supersede recognized older heirs.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-ranks-and-jurisdiction",
+    "name": "Ranks and Jurisdiction",
+    "body": "Luceryn is sovereign prince; the Princess Consort holds highest female ceremonial rank; Celestine is First Consort; other recognized consorts keep protected rank. Rank does not grant unlimited authority. Istrenne administers inner-palace regulations. Consorts govern their own residences. The princess cannot order other consorts removed from mandated functions or shared protected spaces.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-celestine-arvienne",
+    "name": "Celestine Arvienne",
+    "body": "Celestine Arvienne, 386, Iskarethi First Consort; 148 years in residence. Pearl Court. Light-olive skin, dark chestnut hair in a chignon, chocolate eyes, burgundy and pearls. Composed, exacting, skilled palace administrator; has a long affectionate but disappointed partnership with Luceryn. Mother of Alaric. Senior attendant: Helene Ardis.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-rosalinde-feroux",
+    "name": "Rosalinde Feroux",
+    "body": "Rosalinde Feroux, 274, Iskarethi Second Consort; 79 years in residence. Rose Pavilion. Copper-red waves, emerald eyes, ivory skin, crimson and rubies. Passionate, theatrical, witty, arts patron. Former favorite; still romantically involved with Luceryn, though the relationship is unstable. Mother of Mirelle. Senior attendant: Corinne Bellac.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-sabine-duvrane",
+    "name": "Sabine Duvrane",
+    "body": "Sabine Duvrane, 341, Third Consort; 52 years in residence. From the Court of Thorns, ruled by Vaelric Draven. Azure Gallery. Cool olive skin, ash-brown hair, steel-blue-gray eyes, navy and silver. Pragmatic, sharp, diplomatic; Luceryn’s political partner, not romantically dependent. Appointment protected by diplomatic compact. Senior attendant: Maelis Renn.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-liora-edevane",
+    "name": "Liora Edevane",
+    "body": "Liora Edevane, 462, Iskarethi Fourth Consort; 31 years in residence. Willow Residence. Warm brown skin, dark curly hair, honey-amber eyes, sage and bronze. Healer/herbalist; warm, perceptive, blunt, and stubborn. Knew Luceryn before he ruled; their bond is longstanding and occasionally intimate. Senior attendant: Fenna Belis.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-odette-viremont",
+    "name": "Odette Viremont",
+    "body": "Odette Viremont, 137, Fifth Consort; 11 months in residence. From Varrinth, ruled by Rhaevor Veyr. Moonflower Pavilion. Pale ivory skin, champagne-blonde hair, golden-hazel eyes, lavender and moonstone. Ambitious, observant, financially pressured by her family. Recently close to Luceryn. Senior attendant: Eveline Soreth.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-mistress-istrenne-halcour",
+    "name": "Mistress Istrenne Halcour",
+    "body": "Madame Istrenne Halcour, 587, High Fae, Mistress of the Inner Palace; 216 years of service. Silver-streaked dark hair, gray-brown eyes, charcoal/plum gowns, ceremonial keys. Oversees records, staff administration, supplies, and procedural enforcement. Appointed through the Council of Seals; neither prince nor princess can arbitrarily remove her for applying law. Precise, dryly funny, protective of staff rights.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-senior-attendants",
+    "name": "Senior Attendants",
+    "body": "Helene Ardis (312): Celestine’s exacting senior attendant. Corinne Bellac (206): Rosalinde’s sociable attendant. Maelis Renn (278): Sabine’s Thorn-born attendant. Fenna Belis (354): Liora’s practical attendant. Eveline Soreth (174): Odette’s Varrinth-born attendant.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-servant-rules",
+    "name": "Servant Rules",
+    "body": "Each consort has contractual household staff; shared departments report to palace administration. Staff have rights and cannot be arbitrarily imprisoned, beaten, or reassigned as revenge. Attendants maintain loyalties, friendships, rivalries, and information networks across residences. Individual consorts cannot commandeer another consort’s staff.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-hall-of-restoration",
+    "name": "Hall of Restoration",
+    "body": "Palace medical wing with independent professional authority, medicinal gardens, and alchemical laboratory. Chief physician Oren Caldris (421) oversees care; alchemical practitioner Neris Ambrin (193) studies substances and interactions; midwife Adessa Coriel (508) handles reproductive care. Medical records are private; neither prince nor princess can demand false findings or unrestricted disclosure. Magic does not solve every investigation.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-alaric-orsenne",
+    "name": "Alaric Orsenne",
+    "body": "Alaric Orsenne, 112, adult son of Luceryn and Celestine. Royal envoy and council observer. Resembles Luceryn but is more disciplined and guarded. Eligible successor; concerned his father’s marriage may undermine his mother and affect succession. His respect for the incoming Princess Consort is not yet established.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-mirelle-orsenne",
+    "name": "Mirelle Orsenne",
+    "body": "Mirelle Orsenne, 64, adult daughter of Luceryn and Rosalinde. Maritime patron and junior trade commissioner; copper-auburn hair, amber-green eyes. Charismatic, independent, outspoken. Loves both parents but dislikes being used in their disputes. Eligible successor and frustrated at being treated as secondary to Alaric.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-maritime-succession-compact",
+    "name": "Maritime Succession Compact",
+    "body": "Recognized children of consorts and lawful marriages can inherit Iskareth regardless of gender. Eligibility depends on recognition, dynastic rules, and constitutional confirmation; a future child of the Princess Consort does NOT automatically displace Alaric or Mirelle. Neither Luceryn nor the Princess Consort can unilaterally rewrite succession or disinherit a recognized heir. The precise outcome remains unsettled.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-council-of-seals",
+    "name": "Council of Seals",
+    "body": "Iskareth’s constitutional and advisory council. Oversees specified appointments, public finance, dynastic confirmations, and legal constraints on the prince. Chancellor Edric Solenne (396) leads government. Magistrate Nerisse Talven (533) presides over the independent dynastic tribunal.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-house-orsenne-relatives",
+    "name": "House Orsenne Relatives",
+    "body": "Aveline Orsenne (674): Luceryn’s paternal aunt, traditionalist, seeks dynastic stability. Theron Orsenne (427): ambitious cousin with maritime noble support, seeks influence through succession debate. Edric Solenne (396): chancellor, pragmatic. Nerisse Talven (533): magistrate, independently enforces dynastic law.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-visiting-register",
+    "name": "Visiting Register",
+    "body": "Authorized palace staff keep a confidential register of Luceryn’s appointments for security and staffing, not a compulsory intimacy schedule. Consorts can decline visits. The register attracts gossip; its contents are not automatically known to everyone. Romantic access does not determine rank or legal rights.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
+  },
+  {
+    "id": "iskareth-palace-traditions",
+    "name": "Palace Traditions",
+    "body": "First Bloom: annual garden displays by pavilions. Lantern Supper: monthly household dinner; customary, not compulsory. Harbor Benediction: maritime festival and charity. Exchange of Silks: seasonal diplomatic gifting. Evening of Seven Lamps: ceremony recalling the household’s legal offices and covenants.",
+    "category": "Iskareth & Household",
+    "source": "The Gilded Household lorebook · supplied 8 November 2026"
   }
 ];
